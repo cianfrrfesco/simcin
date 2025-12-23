@@ -2,62 +2,302 @@
   {
     "id": 1,
     "type": "tf",
-    "question": "Secondo i fratelli Lumière, il cinema era un'invenzione destinata a un grande futuro commerciale come forma di spettacolo narrativo.",
+    "question": "Il Cinématographe dei fratelli Lumière era una macchina 'reversibile', ovvero poteva fungere sia da camera che da proiettore.",
     "options": ["Vero", "Falso"],
-    "correct": 1,
-    "explanation": "Falso. I Lumière consideravano il Cinématographe uno strumento scientifico e documentario, affermando notoriamente che 'il cinema è un'invenzione senza futuro'."
+    "correct": 0,
+    "explanation": "Vero. A differenza del Kinetoscopio di Edison (visione singola), il dispositivo Lumière permetteva la ripresa, la stampa e la proiezione pubblica."
   },
   {
     "id": 2,
     "type": "multiple",
-    "question": "Quali tra questi sono tratti distintivi dell'Espressionismo Tedesco (1920-1927)?",
+    "question": "Quali di questi elementi caratterizzano il 'Cinema delle Attrazioni' (1895-1908) secondo la teoria di Tom Gunning?",
     "options": [
-      "Uso di scenografie distorte e antinaturalistiche",
-      "Illuminazione a contrasto (chiaroscuro)",
-      "Montaggio rapido e ritmico di derivazione sovietica",
-      "Recitazione esasperata e stilizzata"
+      "Predominanza della narrazione sulla visione",
+      "Sguardo in macchina degli attori",
+      "Assenza di un montaggio narrativo complesso",
+      "Ricerca della continuità psicologica dei personaggi"
     ],
-    "correct": [0, 1, 3],
-    "explanation": "L'espressionismo punta sulla messa in scena (scenografia, luci, recitazione). Il montaggio rapido è tipico della Scuola Sovietica, non dell'Espressionismo."
+    "correct": [1, 2],
+    "explanation": "Il cinema delle attrazioni punta a mostrare, non a raccontare. Lo sguardo in macchina e l'esibizione visiva prevalgono sulla coerenza narrativa."
   },
   {
     "id": 3,
     "type": "fill",
-    "question": "Il regista che ha codificato il linguaggio del cinema classico americano con 'Nascita di una nazione' (1915) è:",
-    "correct": "David Wark Griffith",
-    "explanation": "D.W. Griffith è considerato il padre del montaggio analitico e della continuità narrativa classica."
+    "question": "Il trucco cinematografico basato sull'interruzione della ripresa e la sostituzione di un oggetto, tipico di Méliès, si chiama:",
+    "correct": "Fermo macchina",
+    "explanation": "Il 'fermo macchina' (o arresto della ripresa) permetteva a Méliès di far apparire o sparire oggetti e persone nei suoi film 'a trasformazione'."
   },
   {
     "id": 4,
     "type": "match",
-    "question": "Associa il film al suo autore corretto:",
+    "question": "Associa il termine tecnico alla sua funzione nel cinema classico:",
     "pairs": [
-      {"a": "Il gabinetto del dottor Caligari", "b": "Robert Wiene"},
-      {"a": "La corazzata Potëmkin", "b": "Sergej Ejzenštejn"},
-      {"a": "Napoleone", "b": "Abel Gance"},
-      {"a": "Ladri di biciclette", "b": "Vittorio De Sica"}
+      {"a": "Raccordo di sguardo", "b": "Continuità visiva"},
+      {"a": "Montaggio alternato", "b": "Contemporaneità di due azioni"},
+      {"a": "Piano d'ambientazione", "b": "Establishing shot"},
+      {"a": "Regola dei 180 gradi", "b": "Spazio filmico coerente"}
     ],
-    "explanation": "Wiene (Espressionismo), Ejzenštejn (Montaggio Sovietico), Gance (Impressionismo Francese), De Sica (Neorealismo)."
+    "explanation": "Questi sono i pilastri del sistema della continuità (decoupage classico) codificato a Hollywood tra il 1910 e il 1917."
   },
   {
     "id": 5,
     "type": "tf",
-    "question": "Il Neorealismo italiano utilizzava prevalentemente attori professionisti e studi di posa come Cinecittà.",
+    "question": "D.W. Griffith è considerato il primo regista ad aver utilizzato il montaggio per costruire una complessa retorica ideologica.",
     "options": ["Vero", "Falso"],
-    "correct": 1,
-    "explanation": "Falso. Il Neorealismo preferiva attori non professionisti e riprese in esterni per aumentare il senso di autenticità."
+    "correct": 0,
+    "explanation": "Vero. Con 'Nascita di una nazione' e 'Intolerance', Griffith usa il montaggio non solo per la storia, ma per veicolare messaggi morali e politici."
   },
   {
     "id": 6,
     "type": "multiple",
-    "question": "Quali innovazioni furono introdotte dal cinema di Georges Méliès?",
+    "question": "Quali innovazioni visive sono associate all'Impressionismo Francese degli anni '20?",
     "options": [
-      "Esposizioni multiple (sovrimpressioni)",
-      "L'uso del montaggio alternato per creare suspense",
-      "Lo stop-motion (fermo macchina)",
-      "La colorazione a mano dei fotogrammi"
+      "Uso della sovrimpressione per mostrare i pensieri",
+      "Montaggio accelerato (ritmico)",
+      "Scenografie deformate e spigolose",
+      "Ottiche flou per effetti soggettivi"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "L'Impressionismo lavora sulla 'fotogenia' e la soggettività. Le scenografie deformate appartengono invece all'Espressionismo Tedesco."
+  },
+  {
+    "id": 7,
+    "type": "fill",
+    "question": "L'effetto per cui lo spettatore attribuisce un significato diverso a un'espressione neutra in base all'inquadratura successiva è l'effetto:",
+    "correct": "Kulesov",
+    "explanation": "Lev Kulešov dimostrò che il senso non è nell'inquadratura singola, ma nella loro associazione tramite il montaggio."
+  },
+  {
+    "id": 8,
+    "type": "match",
+    "question": "Associa il regista al suo capolavoro muto:",
+    "pairs": [
+      {"a": "F.W. Murnau", "b": "Nosferatu"},
+      {"a": "Fritz Lang", "b": "Metropolis"},
+      {"a": "Sergej Ejzenstejn", "b": "Sciopero!"},
+      {"a": "Carl Th. Dreyer", "b": "La passione di Giovanna d'Arco"}
+    ],
+    "explanation": "Murnau e Lang sono i giganti del cinema tedesco; Ejzenstejn del montaggio sovietico; Dreyer del realismo spirituale."
+  },
+  {
+    "id": 9,
+    "type": "tf",
+    "question": "Il film 'Il cantante di jazz' (1927) è un film interamente parlato dall'inizio alla fine.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. È un film 'part-talkie': è prevalentemente muto con inserti musicali e solo alcune brevi sequenze di dialogo cantato o parlato."
+  },
+  {
+    "id": 10,
+    "type": "multiple",
+    "question": "Quali furono le conseguenze immediate dell'introduzione del sonoro a Hollywood?",
+    "options": [
+      "Maggiore libertà di movimento della macchina da presa",
+      "Nascita di nuovi generi come il Musical",
+      "Necessità di attori con una buona dizione",
+      "Aumento dei costi di produzione"
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "Il sonoro inizialmente limitò i movimenti della camera (chiusa in cabine insonorizzate) e impose il problema della lingua e della voce degli attori."
+  },
+  {
+    "id": 11,
+    "type": "fill",
+    "question": "Il sistema di integrazione verticale delle 'Major' hollywoodiane prevedeva il controllo di produzione, distribuzione e...",
+    "correct": "Esercizio",
+    "explanation": "L'esercizio (ovvero la proprietà delle sale cinematografiche) permetteva alle Big Five di dominare il mercato."
+  },
+  {
+    "id": 12,
+    "type": "match",
+    "question": "Associa la casa di produzione al suo 'brand' o genere tipico degli anni '30:",
+    "pairs": [
+      {"a": "Universal", "b": "Horror"},
+      {"a": "Warner Bros", "b": "Gangster Movie"},
+      {"a": "MGM", "b": "Musical di lusso"},
+      {"a": "RKO", "b": "Film d'autore (Welles)"}
+    ],
+    "explanation": "Ogni Studio aveva una propria identità visiva e narrativa ben definita (House Style)."
+  },
+  {
+    "id": 13,
+    "type": "tf",
+    "question": "Il Codice Hays (1934) era una legge statale americana che imponeva la censura governativa sui film.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Era un codice di autoregolamentazione interna dell'industria (MPAA) per evitare l'intervento censorio dello Stato."
+  },
+  {
+    "id": 14,
+    "type": "multiple",
+    "question": "Quali tecniche innovative vengono utilizzate da Orson Welles in 'Quarto Potere' (Citizen Kane)?",
+    "options": [
+      "Profondità di campo (deep focus)",
+      "Montaggio invisibile classico",
+      "Long take (inquadrature lunghe)",
+      "Struttura narrativa non lineare a flashback"
     ],
     "correct": [0, 2, 3],
-    "explanation": "Méliès è il padre del cinema di 'attrazione' e dei trucchi visivi. Il montaggio alternato è un'innovazione successiva, attribuita principalmente a Griffith."
+    "explanation": "Welles e il direttore della fotografia Gregg Toland rivoluzionarono il linguaggio cinematografico rompendo la fluidità del montaggio classico."
+  },
+  {
+    "id": 15,
+    "type": "fill",
+    "question": "Il teorico e sceneggiatore che teorizzò il 'pedinamento' del personaggio nel Neorealismo italiano è:",
+    "correct": "Cesare Zavattini",
+    "explanation": "Zavattini fu l'anima teorica del Neorealismo, sostenendo un cinema che seguisse la realtà quotidiana senza filtri romanzeschi."
+  },
+  {
+    "id": 16,
+    "type": "tf",
+    "question": "Il film 'Ossessione' (1943) di Luchino Visconti è considerato un precursore del Neorealismo.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Per l'ambientazione rurale e la carnalità dei personaggi, segnò una rottura netta con i 'telefoni bianchi' dell'epoca fascista."
+  },
+  {
+    "id": 17,
+    "type": "multiple",
+    "question": "Quali sono le caratteristiche estetiche principali del Neorealismo?",
+    "options": [
+      "Riprese in esterni reali",
+      "Uso di attori non professionisti",
+      "Finali a lieto fine obbligatori",
+      "Trame basate sulla casualità della vita quotidiana"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Il Neorealismo rifiuta gli schemi prefissati di Hollywood, preferendo l'osservazione della realtà sociale post-bellica."
+  },
+  {
+    "id": 18,
+    "type": "match",
+    "question": "Associa il film al suo regista neorealista:",
+    "pairs": [
+      {"a": "Roma città aperta", "b": "Roberto Rossellini"},
+      {"a": "Ladri di biciclette", "b": "Vittorio De Sica"},
+      {"a": "La terra trema", "b": "Luchino Visconti"},
+      {"a": "Riso amaro", "b": "Giuseppe De Santis"}
+    ],
+    "explanation": "Questi sono i titoli cardine che definiscono le diverse anime del Neorealismo (cronaca, poesia, epica, pop)."
+  },
+  {
+    "id": 19,
+    "type": "tf",
+    "question": "Il termine 'Film Noir' fu coniato dai registi americani per definire i loro polizieschi degli anni '40.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Il termine fu coniato dalla critica francese (Nino Frank) dopo la guerra, analizzando i film americani che non avevano visto durante l'occupazione."
+  },
+  {
+    "id": 20,
+    "type": "multiple",
+    "question": "Elementi tipici dello stile visivo del Film Noir sono:",
+    "options": [
+      "Illuminazione low-key (forti contrasti)",
+      "Prevalenza di linee diagonali e sbilanciate",
+      "Uso frequente della voce fuori campo (voice-over)",
+      "Colori saturi e vivaci"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Il Noir è caratterizzato da oscurità visiva e pessimismo narrativo, influenzato dall'estetica espressionista."
+  },
+  {
+    "id": 21,
+    "type": "fill",
+    "question": "La 'Sentenza Paramount' del 1948 impose alle Major hollywoodiane di vendere le loro...",
+    "correct": "Sale cinematografiche",
+    "explanation": "La Corte Suprema dichiarò illegale l'integrazione verticale, ponendo fine al monopolio degli Studios e dando inizio alla crisi del sistema classico."
+  },
+  {
+    "id": 22,
+    "type": "match",
+    "question": "Associa l'autore alla sua poetica/stile:",
+    "pairs": [
+      {"a": "Alfred Hitchcock", "b": "Suspense e sguardo"},
+      {"a": "John Ford", "b": "L'epica del Western"},
+      {"a": "Yasujiro Ozu", "b": "Inquadrature ad altezza tatami"},
+      {"a": "Ingmar Bergman", "b": "Analisi psicologica ed esistenziale"}
+    ],
+    "explanation": "Questi autori hanno definito l'idea di 'politica degli autori' negli anni '50."
+  },
+  {
+    "id": 23,
+    "type": "tf",
+    "question": "Negli anni '50, Hollywood cercò di combattere la concorrenza della Televisione introducendo il colore e i formati panoramici (come il CinemaScope).",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Per attirare il pubblico al cinema, l'industria puntò sulla spettacolarità visiva non disponibile sul piccolo schermo."
+  },
+  {
+    "id": 24,
+    "type": "multiple",
+    "question": "Quali di questi registi fanno parte della cosiddetta 'Generazione della Violenza' o post-classica americana?",
+    "options": [
+      "Nicholas Ray",
+      "Douglas Sirk",
+      "D.W. Griffith",
+      "Elia Kazan"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Ray, Sirk e Kazan portarono negli anni '50 tematiche più adulte, tormentate e uno stile visivo più espressivo."
+  },
+  {
+    "id": 25,
+    "type": "fill",
+    "question": "Il genere cinematografico che meglio di tutti ha rappresentato la 'frontiera' americana è il:",
+    "correct": "Western",
+    "explanation": "Il Western è il genere fondativo del cinema americano, esplorando il conflitto tra civiltà e natura selvaggia."
+  },
+  {
+    "id": 26,
+    "type": "match",
+    "question": "Associa l'attore al metodo o stile di recitazione:",
+    "pairs": [
+      {"a": "Marlon Brando", "b": "Actors Studio / Metodo"},
+      {"a": "Buster Keaton", "b": "Recitazione acrobatica 'stone-face'"},
+      {"a": "Charlie Chaplin", "b": "Mimo e pantomima"},
+      {"a": "Humphrey Bogart", "b": "Understatement e durezza Noir"}
+    ],
+    "explanation": "L'evoluzione della recitazione è un punto chiave della storia del cinema del corso di Locatelli."
+  },
+  {
+    "id": 27,
+    "type": "tf",
+    "question": "L'Espressionismo tedesco si basava principalmente sul montaggio veloce per creare angoscia.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. L'espressionismo si basa sulla messa in scena: scenografie, costumi e luci distorte. Il montaggio è solitamente lento."
+  },
+  {
+    "id": 28,
+    "type": "multiple",
+    "question": "Quali elementi definiscono il 'Cinema d'Autore' europeo emergente negli anni '50?",
+    "options": [
+      "Riconoscibilità dello stile del regista",
+      "Forte ambiguità narrativa",
+      "Produzioni a bassissimo costo senza attori",
+      "Temi filosofici e introspettivi"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Il cinema d'autore non coincide necessariamente con il basso costo, ma con la visione artistica soggettiva del regista."
+  },
+  {
+    "id": 29,
+    "type": "fill",
+    "question": "Il dispositivo ottico di Edison che permetteva la visione di un film a una sola persona per volta si chiama:",
+    "correct": "Kinetoscopio",
+    "explanation": "A differenza del proiettore Lumière, il Kinetoscopio (Kinetoscope) era una 'scatola' in cui si guardava dentro da uno spioncino."
+  },
+  {
+    "id": 30,
+    "type": "match",
+    "question": "Associa l'anno all'evento cinematografico:",
+    "pairs": [
+      {"a": "1895", "b": "Prima proiezione pubblica Lumière"},
+      {"a": "1927", "b": "Uscita di The Jazz Singer"},
+      {"a": "1941", "b": "Uscita di Quarto Potere"},
+      {"a": "1945", "b": "Uscita di Roma città aperta"}
+    ],
+    "explanation": "Queste date segnano i passaggi fondamentali dalla nascita del cinema al sonoro, fino alla rivoluzione moderna."
   }
 ]
