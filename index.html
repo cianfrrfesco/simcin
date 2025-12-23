@@ -5,46 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulazione Storia del Cinema - Unicatt</title>
     <style>
-        :root { --primary: #800000; --secondary: #f4f4f4; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background: #fafafa; }
-        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        h1 { color: var(--primary); text-align: center; }
-        .question-text { font-weight: bold; font-size: 1.1em; margin-bottom: 15px; }
-        .option { display: block; margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; }
-        .option:hover { background: #f0f0f0; }
-        .selected { background: #e0e0e0; border-color: var(--primary); }
-        button { background: var(--primary); color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1em; }
-        button:disabled { background: #ccc; }
+        :root { --primary: #800000; --secondary: #f4f4f4; --text: #333; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background: #f0f0f0; color: var(--text); }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px; border-top: 5px solid var(--primary); }
+        h1 { color: var(--primary); text-align: center; text-transform: uppercase; letter-spacing: 1px; }
+        .progress-bar { font-size: 0.9em; color: #666; margin-bottom: 10px; font-weight: bold; }
+        .question-text { font-size: 1.2em; font-weight: 600; margin-bottom: 20px; color: #000; }
+        .option { display: block; margin: 12px 0; padding: 15px; border: 2px solid #eee; border-radius: 8px; cursor: pointer; transition: all 0.2s; }
+        .option:hover { background: #fff5f5; border-color: var(--primary); }
+        .option.selected { background: #800000; color: white; border-color: #800000; }
+        input[type="text"] { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 1em; margin-top: 10px; box-sizing: border-box; }
+        button { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-size: 1em; font-weight: bold; width: 100%; transition: opacity 0.2s; }
+        button:hover { opacity: 0.9; }
         #recap { display: none; }
-        .correct { color: green; font-weight: bold; }
-        .wrong { color: red; font-weight: bold; }
-        .explanation { font-style: italic; background: #fff3cd; padding: 10px; border-left: 4px solid #ffeeba; margin-top: 10px; }
-        .match-item { display: flex; align-items: center; margin-bottom: 5px; }
-        input[type="text"] { padding: 8px; width: 80%; }
+        .correct-box { border-left: 5px solid #28a745; background: #f8fff9; padding: 15px; margin: 10px 0; }
+        .wrong-box { border-left: 5px solid #dc3545; background: #fff8f8; padding: 15px; margin: 10px 0; }
+        .explanation { font-style: italic; background: #fff3cd; padding: 15px; border-radius: 6px; margin-top: 10px; font-size: 0.95em; }
+        .match-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center; margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
     <div id="setup-screen">
-        <h1>Simulazione Esame Storia del Cinema</h1>
-        <p>Corso(Unicatt)</p>
         <div class="card">
-            <p>Il test prevede 30 domande estratte casualmente da un pool di 300. Ogni domanda vale 1 punto.</p>
-            <button onclick="startQuiz()">Inizia Simulazione</button>
+            <h1>Simulazione Esame <br>Storia del Cinema</h1>
+            <p style="text-align: center;">Corso del Pro</p>
+            <hr>
+            <p>Il test include 30 domande basate sul manuale <i>"Storia del cinema: un'introduzione"</i>.</p>
+            <p><strong>Tipologie:</strong> Scelta multipla, Vero/Falso, Fill-the-blank e Associazioni.</p>
+            <button onclick="startQuiz()">Inizia Esame</button>
         </div>
     </div>
 
     <div id="quiz-container" style="display:none;">
-        <div id="progress">Domanda 1 di 30</div>
+        <div id="progress" class="progress-bar"></div>
         <div id="question-card" class="card"></div>
-        <button id="next-btn" onclick="nextQuestion()">Prossima domanda</button>
+        <button id="next-btn" onclick="nextQuestion()">Conferma e Prosegui</button>
     </div>
 
     <div id="recap">
         <h1>Risultato Finale</h1>
-        <div id="score-display" class="card"></div>
+        <div id="score-display"></div>
         <div id="recap-list"></div>
-        <button onclick="location.reload()">Riprova</button>
+        <button onclick="location.reload()" style="margin-top: 20px;">Riprova Test</button>
     </div>
 
     <script>
@@ -52,90 +55,97 @@
         let selectedQuestions = [];
         let currentIdx = 0;
         let userAnswers = [];
-        let score = 0;
 
         async function startQuiz() {
             try {
-                const response = await fetch('questions.json');
+                // Fetch con timestamp per evitare cache di GitHub
+                const response = await fetch('questions.json?t=' + Date.now());
+                if (!response.ok) throw new Error("File questions.json non trovato sul server.");
+                
                 allQuestions = await response.json();
+                
+                // Prendiamo 30 domande casuali
                 selectedQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 30);
                 
+                if (selectedQuestions.length === 0) throw new Error("Il file JSON è vuoto.");
+
                 document.getElementById('setup-screen').style.display = 'none';
                 document.getElementById('quiz-container').style.display = 'block';
                 showQuestion();
             } catch (e) {
-                alert("Errore nel caricamento delle domande. Assicurati che questions.json sia presente.");
+                alert("ERRORE: " + e.message + "\nAssicurati che questions.json sia nella stessa cartella dell'index.");
+                console.error(e);
             }
         }
 
         function showQuestion() {
             const q = selectedQuestions[currentIdx];
             const container = document.getElementById('question-card');
-            document.getElementById('progress').innerText = `Domanda ${currentIdx + 1} di 30`;
+            document.getElementById('progress').innerText = `DOMANDA ${currentIdx + 1} DI ${selectedQuestions.length}`;
             
             let html = `<div class="question-text">${q.question}</div>`;
 
             if (q.type === 'tf' || q.type === 'multiple') {
                 q.options.forEach((opt, i) => {
-                    html += `<div class="option" onclick="selectOption(${i}, this, ${q.type === 'multiple'})">${opt}</div>`;
+                    html += `<div class="option" data-idx="${i}" onclick="toggleOption(this, ${q.type === 'multiple'})">${opt}</div>`;
                 });
             } else if (q.type === 'fill') {
-                html += `<input type="text" id="fill-input" placeholder="Scrivi qui la risposta...">`;
+                html += `<input type="text" id="fill-input" placeholder="Scrivi la risposta qui..." autocomplete="off">`;
             } else if (q.type === 'match') {
                 q.pairs.forEach((p, i) => {
-                    html += `<div class="match-item">${p.a} ➔ <input type="text" class="match-input" data-index="${i}" placeholder="Associa B"></div>`;
+                    html += `<div class="match-row">
+                                <span>${p.a}</span>
+                                <input type="text" class="match-input" data-pair="${i}" placeholder="Associa...">
+                             </div>`;
                 });
             }
 
             container.innerHTML = html;
         }
 
-        function selectOption(idx, el, isMultiple) {
+        function toggleOption(el, isMultiple) {
             if (!isMultiple) {
-                Array.from(el.parentNode.children).forEach(c => c.classList.remove('selected'));
+                document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
             }
             el.classList.toggle('selected');
         }
 
         function nextQuestion() {
-            saveAnswer();
+            const q = selectedQuestions[currentIdx];
+            let answer = null;
+
+            if (q.type === 'tf' || q.type === 'multiple') {
+                const sel = Array.from(document.querySelectorAll('.option.selected'));
+                answer = sel.map(s => parseInt(s.getAttribute('data-idx')));
+            } else if (q.type === 'fill') {
+                answer = document.getElementById('fill-input').value.trim();
+            } else if (q.type === 'match') {
+                answer = Array.from(document.querySelectorAll('.match-input')).map(i => i.value.trim());
+            }
+
+            userAnswers.push(answer);
             currentIdx++;
-            if (currentIdx < 30) {
+
+            if (currentIdx < selectedQuestions.length) {
                 showQuestion();
             } else {
                 showRecap();
             }
         }
 
-        function saveAnswer() {
-            const q = selectedQuestions[currentIdx];
-            let answer = null;
-
-            if (q.type === 'tf' || q.type === 'multiple') {
-                const selected = Array.from(document.querySelectorAll('.option.selected'));
-                answer = selected.map(s => q.options.indexOf(s.innerText));
-            } else if (q.type === 'fill') {
-                answer = document.getElementById('fill-input').value.trim();
-            } else if (q.type === 'match') {
-                answer = Array.from(document.querySelectorAll('.match-input')).map(input => input.value.trim());
-            }
-            userAnswers.push(answer);
-        }
-
-        function calculateQuestionScore(q, userAns) {
-            if (!userAns) return 0;
-            if (q.type === 'tf') return userAns[0] === q.correct ? 1 : 0;
+        function calculateScore(q, uAns) {
+            if (!uAns || uAns.length === 0) return 0;
+            if (q.type === 'tf') return uAns[0] === q.correct ? 1 : 0;
+            if (q.type === 'fill') return uAns.toLowerCase() === q.correct.toLowerCase() ? 1 : 0;
             if (q.type === 'multiple') {
-                let correctCount = 0;
-                q.correct.forEach(c => { if(userAns.includes(c)) correctCount++; });
-                userAns.forEach(u => { if(!q.correct.includes(u)) correctCount -= 0.5; });
-                return Math.max(0, correctCount / q.correct.length);
+                let p = 0;
+                uAns.forEach(val => { if(q.correct.includes(val)) p += (1/q.correct.length); else p -= 0.5; });
+                return Math.max(0, p);
             }
-            if (q.type === 'fill') return userAns.toLowerCase() === q.correct.toLowerCase() ? 1 : 0;
             if (q.type === 'match') {
-                let matches = 0;
-                q.pairs.forEach((p, i) => { if(userAns[i]?.toLowerCase() === p.b.toLowerCase()) matches++; });
-                return matches / q.pairs.length;
+                let p = 0;
+                q.pairs.forEach((pair, i) => { if(uAns[i]?.toLowerCase() === pair.b.toLowerCase()) p += (1/q.pairs.length); });
+                return p;
             }
             return 0;
         }
@@ -145,22 +155,22 @@
             document.getElementById('recap').style.display = 'block';
             
             let totalScore = 0;
-            let recapHtml = '';
+            let html = '';
 
             selectedQuestions.forEach((q, i) => {
-                const qScore = calculateQuestionScore(q, userAnswers[i]);
-                totalScore += qScore;
-                
-                recapHtml += `<div class="card">
+                const s = calculateScore(q, userAnswers[i]);
+                totalScore += s;
+                const isCorrect = s >= 0.8;
+
+                html += `<div class="card ${isCorrect ? 'correct-box' : 'wrong-box'}">
                     <p><strong>${i+1}. ${q.question}</strong></p>
-                    <p>Tua risposta: <span class="${qScore === 1 ? 'correct' : 'wrong'}">${JSON.stringify(userAnswers[i])}</span></p>
-                    <p>Corretta: ${q.type === 'match' ? 'Vedi spiegazione' : q.correct}</p>
+                    <p>Punti ottenuti: ${s.toFixed(2)}</p>
                     <div class="explanation"><strong>Correzione:</strong> ${q.explanation}</div>
                 </div>`;
             });
 
-            document.getElementById('score-display').innerHTML = `<h2>Punteggio: ${totalScore.toFixed(2)} / 30</h2>`;
-            document.getElementById('recap-list').innerHTML = recapHtml;
+            document.getElementById('score-display').innerHTML = `<div class="card" style="text-align:center"><h2>Voto: ${totalScore.toFixed(2)} / 30</h2></div>`;
+            document.getElementById('recap-list').innerHTML = html;
         }
     </script>
 </body>
