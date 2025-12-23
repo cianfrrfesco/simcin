@@ -1818,6 +1818,940 @@
     ],
     "correct": [0, 2],
     "explanation": "Per Visconti (nel saggio su 'Cinema' del 1943), il regista deve interessarsi alla carne e al sangue dell'uomo, non alla bella inquadratura."
+  },
+    {
+    "id": 191,
+    "type": "tf",
+    "question": "Il neorealismo ha influenzato profondamente la nascita delle 'New Waves' europee degli anni '60.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. La libertà stilistica e l'attenzione alla realtà del neorealismo furono la base per registi come Godard e Truffaut."
+  },
+  {
+    "id": 192,
+    "type": "multiple",
+    "question": "Quali sono i 'quattro grandi' maestri del neorealismo italiano citati solitamente?",
+    "options": ["Rossellini", "De Sica", "Visconti", "Antonioni", "Fellini"],
+    "correct": [0, 1, 2],
+    "explanation": "Rossellini, De Sica e Visconti sono i padri fondatori. Antonioni e Fellini iniziarono nel clima neorealista ma si spostarono subito verso stili modernisti e soggettivi."
+  },
+  {
+    "id": 193,
+    "type": "fill",
+    "question": "Il termine che indica il montaggio di due inquadrature che mostrano la stessa azione da angolazioni diverse per dare continuità è il raccordo di...",
+    "correct": "posizione",
+    "explanation": "Il raccordo di posizione (o di direzione) garantisce che lo spettatore non perda l'orientamento spaziale tra uno stacco e l'altro."
+  },
+  {
+    "id": 194,
+    "type": "match",
+    "question": "Associa il film al suo tema centrale:",
+    "pairs": [
+      {"a": "Umberto D.", "b": "Solitudine della vecchiaia"},
+      {"a": "Paisà", "b": "Liberazione dell'Italia"},
+      {"a": "Riso Amaro", "b": "Mondine e melodramma popolare"}
+    ],
+    "explanation": "Il neorealismo ha esplorato diversi aspetti della società italiana post-bellica, dalla cronaca alla politica."
+  },
+  {
+    "id": 195,
+    "type": "tf",
+    "question": "La 'Sinfonia Urbana' (City Symphony) è un genere di documentario d'avanguardia degli anni '20 che celebra il ritmo della metropoli.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Esempi celebri sono 'Berlino - Sinfonia di una grande città' e 'L'uomo con la macchina da presa'."
+  },
+  {
+    "id": 196,
+    "type": "multiple",
+    "question": "Cosa caratterizza il cinema di animazione di Lotte Reiniger?",
+    "options": ["Uso di sagome di carta ritagliate", "Animazione a passo uno (stop-motion)", "Atmosfere da fiaba", "Uso del computer"],
+    "correct": [0, 1, 2],
+    "explanation": "Lotte Reiniger è stata la maestra assoluta delle silhouette animate, creando capolavori come 'Le avventure del principe Achmed'."
+  },
+  {
+    "id": 197,
+    "type": "fill",
+    "question": "Il film di Michael Powell e Emeric Pressburger del 1948 celebre per l'uso visionario del Technicolor nel balletto è:",
+    "correct": "Scarpette rosse",
+    "explanation": "The Red Shoes è considerato uno dei film più belli esteticamente della storia, influenzando registi come Scorsese."
+  },
+  {
+    "id": 198,
+    "type": "match",
+    "question": "Associa il termine al suo significato tecnico:",
+    "pairs": [
+      {"a": "Panoramica", "b": "Rotazione della camera sul proprio asse"},
+      {"a": "Carrellata", "b": "Spostamento fisico della camera su binari"},
+      {"a": "Zoom", "b": "Movimento ottico delle lenti (focale)"}
+    ],
+    "explanation": "Distinguere tra movimenti meccanici e ottici è fondamentale per l'analisi del linguaggio filmico."
+  },
+  {
+    "id": 199,
+    "type": "tf",
+    "question": "Il cinema di propaganda nazista faceva spesso uso di generi d'intrattenimento (commedie, musical) per veicolare messaggi ideologici in modo indiretto.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Joseph Goebbels preferiva film che divertissero il pubblico pur mantenendo i valori del regime, riservando la propaganda esplicita ai documentari."
+  },
+  {
+    "id": 200,
+    "type": "multiple",
+    "question": "Quali furono le cause della fine dell'era del muto?",
+    "options": ["Il successo travolgente del sonoro", "L'alto costo della conversione delle sale", "Il rifiuto del pubblico per i film senza parole", "La crisi economica del 1929"],
+    "correct": [0, 2],
+    "explanation": "Il pubblico smise quasi istantaneamente di andare a vedere film muti una volta provato il sonoro, forzando l'industria a una trasformazione rapidissima."
+  },
+  {
+    "id": 201,
+    "type": "fill",
+    "question": "L'attrice protagonista de 'L'angelo azzurro' che divenne l'icona della donna fatale per eccellenza è:",
+    "correct": "Marlene Dietrich",
+    "explanation": "Diretta da Josef von Sternberg, la Dietrich creò un personaggio di erotismo ambiguo e sofisticato che dominò gli anni '30."
+  },
+  {
+    "id": 202,
+    "type": "match",
+    "question": "Associa il regista al suo contributo stilistico:",
+    "pairs": [
+      {"a": "Max Ophüls", "b": "Movimenti di macchina eleganti e circolari"},
+      {"a": "Jean Cocteau", "b": "Surrealismo e magia poetica"},
+      {"a": "Vittorio De Sica", "b": "Umanismo e recitazione naturale"}
+    ],
+    "explanation": "Ogni regista ha una 'firma' visiva che lo rende immediatamente riconoscibile."
+  },
+  {
+    "id": 203,
+    "type": "tf",
+    "question": "La 'Profondità di campo' era una tecnica comune nel cinema degli anni '10, poi abbandonata a favore del montaggio analitico e riscoperta negli anni '40.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Il cinema delle origini usava la profondità perché le lenti non permettevano sfocature selettive; Welles e Renoir la riportarono in auge come scelta artistica."
+  },
+  {
+    "id": 204,
+    "type": "multiple",
+    "question": "Cosa si intende per 'Film a episodi'?",
+    "options": ["Film composti da segmenti indipendenti diretti da registi diversi", "Serie TV degli anni '50", "Film tratti da fumetti", "Struttura tipica della commedia all'italiana"],
+    "correct": [0, 3],
+    "explanation": "Il film a episodi divenne popolarissimo in Italia negli anni '50 e '60 come formato commerciale veloce e vario."
+  },
+  {
+    "id": 205,
+    "type": "fill",
+    "question": "Il regista di 'Luci della città' e 'Tempi moderni' che interpretò il vagabondo Charlot è:",
+    "correct": "Charlie Chaplin",
+    "explanation": "Chaplin usò il suo personaggio per criticare la meccanizzazione e la povertà della società moderna."
+  },
+  {
+    "id": 206,
+    "type": "match",
+    "question": "Associa il concetto alla sua definizione corretta:",
+    "pairs": [
+      {"a": "Campo", "b": "Spazio visibile nell'inquadratura"},
+      {"a": "Fuori campo", "b": "Spazio immaginato oltre i bordi"},
+      {"a": "Quarta parete", "b": "Confine invisibile tra attori e spettatori"}
+    ],
+    "explanation": "La gestione dello spazio cinematografico si basa sul rapporto costante tra ciò che si vede e ciò che si suggerisce."
+  },
+  {
+    "id": 207,
+    "type": "tf",
+    "question": "Il 'Jump cut' è uno stacco di montaggio che crea una discontinuità temporale visibile, tipico del cinema classico.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Il jump cut è un errore nel cinema classico; è stato usato intenzionalmente dalle New Waves per rompere l'illusione di realtà."
+  },
+  {
+    "id": 208,
+    "type": "multiple",
+    "question": "Quali elementi definiscono lo stile di Yasujirō Ozu?",
+    "options": ["Angolo di ripresa basso", "Montaggio a 360 gradi", "Inquadrature fisse 'nature morte' (pillows shots)", "Uso di lenti grandangolari spinte"],
+    "correct": [0, 1, 2],
+    "explanation": "Ozu rifiutava le regole di Hollywood, usando uno stile statico e contemplativo unico al mondo."
+  },
+  {
+    "id": 209,
+    "type": "fill",
+    "question": "Il regista polacco-americano noto per il realismo dei suoi polizieschi (The Naked City) è:",
+    "correct": "Jules Dassin",
+    "explanation": "Dassin portò la cinepresa nelle strade reali di New York, influenzando lo stile semi-documentaristico del noir tardo."
+  },
+  {
+    "id": 210,
+    "type": "match",
+    "question": "Associa l'effetto visivo alla sua realizzazione:",
+    "pairs": [
+      {"a": "Sovrimpressione", "b": "Due immagini nello stesso fotogramma"},
+      {"a": "Mascherino", "b": "Copertura di parte della lente"},
+      {"a": "Passo uno", "b": "Scatto di un singolo fotogramma alla volta"}
+    ],
+    "explanation": "Gli effetti speciali meccanici sono nati con Méliès e si sono evoluti fino all'era digitale."
+  },
+  {
+    "id": 211,
+    "type": "tf",
+    "question": "I registi della Nouvelle Vague iniziarono quasi tutti come critici cinematografici.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Scrivevano per i Cahiers du Cinéma prima di prendere in mano la cinepresa."
+  },
+  {
+    "id": 212,
+    "type": "multiple",
+    "question": "Quali furono i contributi di Preston Sturges al cinema degli anni '40?",
+    "options": ["Rinnovamento della satira sociale", "Velocità incredibile dei dialoghi", "Uso del colore espressionista", "Regia e sceneggiatura firmate dalla stessa persona"],
+    "correct": [0, 1, 3],
+    "explanation": "Sturges fu il primo sceneggiatore a cui fu permesso di dirigere i propri script a Hollywood, aprendo la strada alla figura del regista-autore."
+  },
+  {
+    "id": 213,
+    "type": "fill",
+    "question": "Il termine che indica un inquadratura molto ravvicinata di un oggetto o un dettaglio del corpo è:",
+    "correct": "Particolare",
+    "explanation": "Si distingue dal 'Dettaglio' (oggetto) e dal 'Primo piano' (volto umano)."
+  },
+  {
+    "id": 214,
+    "type": "match",
+    "question": "Associa il film al suo sottogenere Noir:",
+    "pairs": [
+      {"a": "Il grande sonno", "b": "Private Eye (Investigatore)"},
+      {"a": "La sanguinaria", "b": "Coppia in fuga (Gun-crazy)"},
+      {"a": "Viale del tramonto", "b": "Noir psicologico/Hollywoodiano"}
+    ],
+    "explanation": "Il noir ha codificato diversi modelli narrativi rimasti validi ancora oggi."
+  },
+  {
+    "id": 215,
+    "type": "tf",
+    "question": "Il neorealismo italiano è stato un movimento strettamente organizzato con un manifesto scritto.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Fu un clima spontaneo nato dalla necessità di raccontare l'Italia del dopoguerra, pur avendo in Zavattini un grande teorico."
+  },
+  {
+    "id": 216,
+    "type": "multiple",
+    "question": "Cosa caratterizza il genere 'Peplum' degli anni '50 in Italia?",
+    "options": ["Storie dell'antica Roma e Grecia", "Eroi muscolosi (Ercole, Maciste)", "Basso budget e scenografie di recupero", "Profonda analisi storica documentata"],
+    "correct": [0, 1, 2],
+    "explanation": "Il Peplum fu un genere commerciale fortunatissimo, basato più sull'azione e lo spettacolo che sull'accuratezza storica."
+  },
+  {
+    "id": 217,
+    "type": "fill",
+    "question": "Il regista svedese che diresse 'La passione di Giovanna d'Arco' (1928) è:",
+    "correct": "Carl Theodor Dreyer",
+    "explanation": "Dreyer usò quasi esclusivamente primi piani per scavare nell'anima della santa, creando un capolavoro di spiritualità visiva."
+  },
+  {
+    "id": 218,
+    "type": "match",
+    "question": "Associa il tipo di luce alla sua funzione nel 'Three-Point Lighting':",
+    "pairs": [
+      {"a": "Key Light", "b": "Luce principale sul soggetto"},
+      {"a": "Fill Light", "b": "Schiarisce le ombre della luce principale"},
+      {"a": "Back Light", "b": "Stacca il soggetto dallo sfondo"}
+    ],
+    "explanation": "Il sistema a tre luci è la base dell'illuminazione classica per garantire un'immagine pulita e tridimensionale."
+  },
+  {
+    "id": 219,
+    "type": "tf",
+    "question": "La 'Settima Arte' è un termine coniato da Ricciotto Canudo nel 1921.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Canudo vedeva nel cinema la sintesi delle arti dello spazio (pittura, scultura, architettura) e del tempo (musica, danza, poesia)."
+  },
+  {
+    "id": 220,
+    "type": "multiple",
+    "question": "Quali furono i motivi del fallimento commerciale di 'Quarto Potere' alla sua uscita?",
+    "options": ["Il boicottaggio della stampa di William Randolph Hearst", "La struttura narrativa troppo complessa per il pubblico medio", "L'assenza di star famose", "La durata eccessiva di 4 ore"],
+    "correct": [0, 1, 2],
+    "explanation": "Hearst, offeso dal film, proibì di menzionarlo sui suoi giornali, condannandolo all'insuccesso economico iniziale."
+  },
+  {
+    "id": 221,
+    "type": "fill",
+    "question": "Il regista di 'Cantando sotto la pioggia' (1952) insieme a Gene Kelly è:",
+    "correct": "Stanley Donen",
+    "explanation": "Donen fu uno dei padri del musical moderno, portando la danza negli spazi reali e urbani."
+  },
+  {
+    "id": 222,
+    "type": "match",
+    "question": "Associa l'anno alla nascita del rispettivo Studio:",
+    "pairs": [
+      {"a": "1912", "b": "Universal Pictures"},
+      {"a": "1923", "b": "Warner Bros"},
+      {"a": "1924", "b": "MGM"}
+    ],
+    "explanation": "Le date di fondazione mostrano il consolidamento dell'industria hollywoodiana dopo la fuga da New York."
+  },
+  {
+    "id": 223,
+    "type": "tf",
+    "question": "Il neorealismo privilegiò il doppiaggio in studio rispetto alla presa diretta sonora per motivi tecnici ed economici.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Nonostante la ricerca del realismo visivo, quasi tutti i film neorealisti furono doppiati perché si girava in mezzo al rumore della città."
+  },
+  {
+    "id": 224,
+    "type": "multiple",
+    "question": "Cosa si intende per 'Piano d'ambientazione' (Establishing Shot)?",
+    "options": ["Un'inquadratura larga che serve a far capire dove si svolge l'azione", "Il primo piano del protagonista", "Una ripresa che apre una nuova sequenza", "L'ultimo fotogramma del film"],
+    "correct": [0, 2],
+    "explanation": "L'establishing shot è fondamentale nella grammatica classica per orientare lo spettatore prima di passare ai dettagli."
+  },
+  {
+    "id": 225,
+    "type": "fill",
+    "question": "Il nome della serie di documentari di propaganda diretti da Frank Capra durante la II Guerra Mondiale è:",
+    "correct": "Why We Fight",
+    "explanation": "Per convincere gli americani a entrare in guerra, Capra usò il montaggio di filmati di repertorio in modo magistrale."
+  },
+  {
+    "id": 226,
+    "type": "match",
+    "question": "Associa il termine al montaggio intellettuale:",
+    "pairs": [
+      {"a": "Attrazione", "b": "Elemento che scuote lo spettatore"},
+      {"a": "Collisione", "b": "Scontro tra due inquadrature opposte"},
+      {"a": "Ideogramma", "b": "Simbolo che nasce dall'unione di due immagini"}
+    ],
+    "explanation": "Per Ejzenštejn il montaggio era una forma di filosofia visiva basata sulla dialettica marxista."
+  },
+  {
+    "id": 227,
+    "type": "tf",
+    "question": "Il cinema svedese perse la sua egemonia dopo il 1920 a causa della partenza dei suoi registi migliori per Hollywood.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Sjostrom e Stiller (e Greta Garbo) furono assunti dagli studios americani, svuotando l'industria svedese di talenti."
+  },
+  {
+    "id": 228,
+    "type": "multiple",
+    "question": "Quali sono i generi tipici del cinema d'animazione delle origini?",
+    "options": ["Il disegno animato", "Il film di pupazzi (Stop-motion)", "Il cinema di silhouette", "L'animazione digitale"],
+    "correct": [0, 1, 2],
+    "explanation": "I pionieri esplorarono ogni tecnica manuale possibile per dare vita all'inanimato."
+  },
+  {
+    "id": 229,
+    "type": "fill",
+    "question": "Il regista di 'La corazzata Potëmkin' celebre per la scena della scalinata di Odessa è:",
+    "correct": "Sergej Ejzenstejn",
+    "explanation": "La scalinata di Odessa è la sequenza di montaggio più studiata della storia del cinema."
+  },
+  {
+    "id": 230,
+    "type": "match",
+    "question": "Associa il divo al genere hollywoodiano:",
+    "pairs": [
+      {"a": "John Wayne", "b": "Western"},
+      {"a": "Fred Astaire", "b": "Musical"},
+      {"a": "James Cagney", "b": "Gangster Movie"}
+    ],
+    "explanation": "Le star venivano spesso 'ingabbiate' in generi specifici dai contratti degli studios."
+  },
+  {
+    "id": 231,
+    "type": "tf",
+    "question": "In 'Psycho' (1960), Hitchcock uccide la protagonista a metà film violando le regole narrative classiche.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Fu uno shock per il pubblico dell'epoca e segnò la fine del cinema classico e l'inizio del moderno."
+  },
+  {
+    "id": 232,
+    "type": "multiple",
+    "question": "Quali sono le caratteristiche della 'Fotogenia'?",
+    "options": ["La capacità della camera di rivelare l'anima delle cose", "Un aumento del valore estetico attraverso il mezzo cinematografico", "L'essere belli in fotografia", "La base teorica dell'Impressionismo francese"],
+    "correct": [0, 1, 3],
+    "explanation": "La fotogenia non riguarda la bellezza fisica, ma la trasfigurazione poetica operata dall'obiettivo."
+  },
+  {
+    "id": 233,
+    "type": "fill",
+    "question": "Il primo film a colori a vincere l'Oscar come Miglior Film è stato:",
+    "correct": "Via col vento",
+    "explanation": "Gone with the Wind (1939) consacrò il Technicolor come standard per i grandi spettacoli hollywoodiani."
+  },
+  {
+    "id": 234,
+    "type": "match",
+    "question": "Associa l'anno all'innovazione tecnica:",
+    "pairs": [
+      {"a": "1903", "b": "Nascita del montaggio narrativo (Porter)"},
+      {"a": "1932", "b": "Technicolor a tre colori"},
+      {"a": "1948", "b": "Lancio della TV commerciale in USA"}
+    ],
+    "explanation": "L'evoluzione tecnologica ha sempre forzato il cinema a reinventarsi."
+  },
+  {
+    "id": 235,
+    "type": "tf",
+    "question": "Il cinema di Mizoguchi è famoso per i 'piani sequenza' che durano diversi minuti senza stacchi.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Lo stile di Mizoguchi è uno dei più raffinati nell'uso della continuità temporale."
+  },
+  {
+    "id": 236,
+    "type": "multiple",
+    "question": "Quali furono le novità del cinema di Jean Renoir negli anni '30?",
+    "options": ["Uso della profondità di campo", "Attenzione alle classi popolari", "Recitazione libera e vitale", "Rifiuto totale della musica"],
+    "correct": [0, 1, 2],
+    "explanation": "Renoir unì la lezione dell'impressionismo pittorico a una sensibilità sociale e tecnica modernissima."
+  },
+  {
+    "id": 237,
+    "type": "fill",
+    "question": "Il regista de 'La finestra sul cortile' e 'Vertigo' è:",
+    "correct": "Alfred Hitchcock",
+    "explanation": "Hitchcock usò il genere thriller per esplorare le ossessioni umane e la natura stessa dello sguardo cinematografico."
+  },
+  {
+    "id": 238,
+    "type": "match",
+    "question": "Associa il film alla sua ambientazione caratteristica:",
+    "pairs": [
+      {"a": "Miracolo a Milano", "b": "Baraccopoli e realismo magico"},
+      {"a": "Senso", "b": "Venezia risorgimentale e melodramma"},
+      {"a": "Ladri di biciclette", "b": "Roma post-bellica e periferia"}
+    ],
+    "explanation": "L'ambientazione è parte integrante della poetica neorealista e dei suoi successivi sviluppi."
+  },
+  {
+    "id": 239,
+    "type": "tf",
+    "question": "Il 'Sistema dei generi' serviva a standardizzare la produzione e ridurre i rischi economici degli studios.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Sapere cosa aspettarsi permetteva al pubblico di scegliere e allo studio di riutilizzare set, costumi e attori."
+  },
+  {
+    "id": 240,
+    "type": "multiple",
+    "question": "Quali elementi definiscono il 'Maccartismo' a Hollywood?",
+    "options": ["La caccia alle streghe contro i comunisti", "Le liste nere (Blacklists)", "L'esilio forzato di registi come Chaplin", "L'obbligo di girare film a colori"],
+    "correct": [0, 1, 2],
+    "explanation": "Il clima di terrore politico negli anni '50 danneggiò gravemente la libertà creativa di molti artisti."
+  },
+  {
+    "id": 241,
+    "type": "fill",
+    "question": "Il regista che diresse 'L'Infernale Quinlan' e 'La signora di Shanghai' è:",
+    "correct": "Orson Welles",
+    "explanation": "Nonostante le difficoltà produttive, Welles continuò a sperimentare con lo stile barocco e la profondità di campo."
+  },
+  {
+    "id": 242,
+    "type": "match",
+    "question": "Associa l'attore al suo film più iconico degli anni '50:",
+    "pairs": [
+      {"a": "James Dean", "b": "Gioventù bruciata"},
+      {"a": "Marilyn Monroe", "b": "A qualcuno piace caldo"},
+      {"a": "John Wayne", "b": "Sentieri selvaggi"}
+    ],
+    "explanation": "Questi attori sono diventati i simboli delle diverse anime del cinema americano del dopoguerra."
+  },
+  {
+    "id": 243,
+    "type": "tf",
+    "question": "Il film 'L'anno scorso a Marienbad' (1961) di Alain Resnais segna la fine del cinema classico e l'inizio del modernismo estremo.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Il film distrugge ogni logica temporale e spaziale, diventando un puzzle visivo puro."
+  },
+  {
+    "id": 244,
+    "type": "multiple",
+    "question": "Quali furono le caratteristiche del cinema di propaganda fascista?",
+    "options": ["Apologia del regime", "Costruzione di Cinecittà", "Rifiuto totale della commedia", "Centralità dei documentari dell'Istituto LUCE"],
+    "correct": [0, 1, 3],
+    "explanation": "Mussolini considerava il cinema 'l'arma più forte', investendo sia in infrastrutture che in messaggi politici."
+  },
+  {
+    "id": 245,
+    "type": "fill",
+    "question": "Il pioniere che inventò il montaggio ritmico accelerato e il montaggio alternato in Francia è:",
+    "correct": "Abel Gance",
+    "explanation": "Con il suo 'Napoleone', Gance sperimentò soluzioni visive (come lo schermo triplo) incredibilmente moderne."
+  },
+  {
+    "id": 246,
+    "type": "match",
+    "question": "Associa il termine al pre-cinema:",
+    "pairs": [
+      {"a": "Cronofotografia", "b": "Marey e Muybridge"},
+      {"a": "Kinetoscopio", "b": "Edison (visione singola)"},
+      {"a": "Cinématographe", "b": "Lumière (visione collettiva)"}
+    ],
+    "explanation": "Questi passaggi tecnologici hanno portato alla nascita del cinema come lo conosciamo."
+  },
+  {
+    "id": 247,
+    "type": "tf",
+    "question": "Il 'Double Feature' è nato come risposta commerciale alla crisi del 1929.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Offrire due film al prezzo di uno serviva a convincere gli americani a spendere i loro pochi soldi al cinema."
+  },
+  {
+    "id": 248,
+    "type": "multiple",
+    "question": "Quali tra questi film sono capolavori dell'Espressionismo?",
+    "options": ["Il gabinetto del dottor Caligari", "Metropolis", "Nosferatu", "La corazzata Potëmkin"],
+    "correct": [0, 1, 2],
+    "explanation": "La Corazzata Potëmkin appartiene al montaggio sovietico, non all'espressionismo tedesco."
+  },
+  {
+    "id": 249,
+    "type": "fill",
+    "question": "Il regista che definì il 'western poetico' con 'Ombre rosse' e 'Sfida infernale' è:",
+    "correct": "John Ford",
+    "explanation": "Ford usò il western per raccontare la nascita dei valori morali e sociali della nazione americana."
+  },
+  {
+    "id": 250,
+    "type": "match",
+    "question": "Associa il movimento alla sua nazione:",
+    "pairs": [
+      {"a": "Impressionismo", "b": "Francia"},
+      {"a": "Neorealismo", "b": "Italia"},
+      {"a": "Nuova Oggettività", "b": "Germania"}
+    ],
+    "explanation": "I movimenti cinematografici sono risposte culturali specifiche al contesto storico di ogni nazione."
+  },
+  {
+    "id": 251,
+    "type": "tf",
+    "question": "L'invenzione del sonoro ha inizialmente rallentato i movimenti di macchina a causa del rumore della cinepresa.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Le macchine dovevano essere chiuse in cabine insonorizzate, rendendo il cinema dei primi anni '30 molto statico."
+  },
+  {
+    "id": 252,
+    "type": "multiple",
+    "question": "Quali erano le 'Big Five' di Hollywood?",
+    "options": ["Paramount", "MGM", "Fox", "Warner", "RKO", "Universal"],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "La Universal faceva parte delle 'Little Three' perché non possedeva un circuito di sale proprio."
+  },
+  {
+    "id": 253,
+    "type": "fill",
+    "question": "Il regista di 'Ossessione' (1943), film chiave del passaggio al neorealismo, è:",
+    "correct": "Luchino Visconti",
+    "explanation": "Visconti portò sullo schermo la passionalità cruda del noir americano ambientandola nella pianura padana."
+  },
+  {
+    "id": 254,
+    "type": "match",
+    "question": "Associa il genere Noir ai suoi elementi narrativi:",
+    "pairs": [
+      {"a": "Hard Boiled", "b": "Dal romanzo giallo americano"},
+      {"a": "Pessimismo", "b": "Nessuna speranza per il futuro"},
+      {"a": "Cinismo", "b": "Disillusione dei personaggi"}
+    ],
+    "explanation": "Il Noir rifletteva la cupa psicologia dell'America durante e dopo la II Guerra Mondiale."
+  },
+  {
+    "id": 255,
+    "type": "tf",
+    "question": "Il cinema Scope ha un rapporto d'aspetto di 1.33:1.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. 1.33:1 è il formato classico (quasi quadrato). Il CinemaScope è panoramico (2.35:1)."
+  },
+  {
+    "id": 256,
+    "type": "multiple",
+    "question": "Quali elementi definiscono il 'Metodo' Stanislavskij-Strasberg?",
+    "options": ["Uso della memoria affettiva", "Immedesimazione totale", "Recitazione distaccata e ironica", "Ricerca della verità psicologica"],
+    "correct": [0, 1, 3],
+    "explanation": "Il Metodo puntava sulla coincidenza tra attore e personaggio, a differenza della recitazione classica."
+  },
+  {
+    "id": 257,
+    "type": "fill",
+    "question": "Il teorico francese che difese il neorealismo nel saggio 'Che cos'è il cinema?' è:",
+    "correct": "Andre Bazin",
+    "explanation": "Bazin vedeva nel cinema italiano la realizzazione dell'ontologia realista dell'immagine fotografica."
+  },
+  {
+    "id": 258,
+    "type": "match",
+    "question": "Associa il film al suo regista giapponese:",
+    "pairs": [
+      {"a": "I sette samurai", "b": "Akira Kurosawa"},
+      {"a": "Viaggio a Tokyo", "b": "Yasujiro Ozu"},
+      {"a": "I racconti della luna pallida d'agosto", "b": "Kenji Mizoguchi"}
+    ],
+    "explanation": "Questi tre registi hanno dominato l'età dell'oro del cinema giapponese."
+  },
+  {
+    "id": 259,
+    "type": "tf",
+    "question": "L'Academy of Motion Picture Arts and Sciences (quella degli Oscar) è stata fondata nel 1927.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Fu creata dagli studios per gestire i rapporti di lavoro e promuovere l'immagine di Hollywood."
+  },
+  {
+    "id": 260,
+    "type": "multiple",
+    "question": "Cosa caratterizza il musical 'A qualcuno piace caldo' di Billy Wilder?",
+    "options": ["Mix di commedia e travestimento", "Ritmo perfetto", "Rottura dei tabù del Codice Hays", "Uso del colore Technicolor"],
+    "correct": [0, 1, 2],
+    "explanation": "Il film fu girato in bianco e nero per rendere più credibile il trucco da donna dei protagonisti e sfidò apertamente la censura."
+  },
+  {
+    "id": 261,
+    "type": "fill",
+    "question": "Il nome della serie di film fantastici a basso costo diretti da registi inglesi (Hammer Film) è noto come Horror...",
+    "correct": "Gotico",
+    "explanation": "La Hammer rilanciò i mostri classici (Dracula, Frankenstein) con l'aggiunta di sangue e colore negli anni '50."
+  },
+  {
+    "id": 262,
+    "type": "match",
+    "question": "Associa il regista al suo contributo alla profondità di campo:",
+    "pairs": [
+      {"a": "Orson Welles", "b": "Significato simbolico e barocco"},
+      {"a": "Jean Renoir", "b": "Democrazia dello sguardo"},
+      {"a": "William Wyler", "b": "Rigore compositivo classico"}
+    ],
+    "explanation": "Sebbene usassero la stessa tecnica, ogni regista le dava un senso narrativo diverso."
+  },
+  {
+    "id": 263,
+    "type": "tf",
+    "question": "Il film 'L'arrivo di un treno alla stazione di La Ciotat' dei Lumière ha causato panico negli spettatori, secondo la leggenda.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Pur essendo un'esagerazione storica, riflette l'impatto scioccante della realtà in movimento sul pubblico vergine di fine '800."
+  },
+  {
+    "id": 264,
+    "type": "multiple",
+    "question": "Quali tra questi sono temi del cinema di Ingmar Bergman?",
+    "options": ["Il silenzio di Dio", "La crisi della coppia", "Il rapporto con la morte", "La lotta di classe"],
+    "correct": [0, 1, 2],
+    "explanation": "Bergman si è sempre concentrato sulla dimensione esistenziale e metafisica dell'uomo."
+  },
+  {
+    "id": 265,
+    "type": "fill",
+    "question": "Il regista che diresse 'Ladri di biciclette' e 'Sciuscià' è:",
+    "correct": "Vittorio De Sica",
+    "explanation": "Insieme allo sceneggiatore Zavattini, formò la coppia più produttiva del neorealismo italiano."
+  },
+  {
+    "id": 266,
+    "type": "match",
+    "question": "Associa il termine al linguaggio classico:",
+    "pairs": [
+      {"a": "Didascalia", "b": "Testo scritto nel cinema muto"},
+      {"a": "Voce-over", "b": "Commento fuori campo"},
+      {"a": "Presa diretta", "b": "Registrazione sonora sul set"}
+    ],
+    "explanation": "Le componenti sonore e testuali hanno funzioni diverse nell'economia del racconto."
+  },
+  {
+    "id": 267,
+    "type": "tf",
+    "question": "Il cinema delle origini (prima del 1908) è caratterizzato da inquadrature lunghe e cinepresa fissa.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Si ereditava la staticità del punto di vista teatrale e fotografico."
+  },
+  {
+    "id": 268,
+    "type": "multiple",
+    "question": "Cosa caratterizza lo stile visivo di Douglas Sirk?",
+    "options": ["Uso espressivo del colore", "Composizioni con cornici e specchi", "Recitazione naturalistica", "Eccesso emotivo"],
+    "correct": [0, 1, 3],
+    "explanation": "Sirk usava lo stile 'pomposo' per denunciare il vuoto della vita borghese americana."
+  },
+  {
+    "id": 269,
+    "type": "fill",
+    "question": "Il regista svedese di 'Il carretto fantasma' (1921) è:",
+    "correct": "Victor Sjostrom",
+    "explanation": "Sjöström è considerato uno dei padri fondatori della sensibilità visiva scandinava."
+  },
+  {
+    "id": 270,
+    "type": "match",
+    "question": "Associa il genere Noir al suo anno d'oro:",
+    "pairs": [
+      {"a": "Inizio", "b": "Il mistero del falco (1941)"},
+      {"a": "Apice", "b": "La fiamma del peccato (1944)"},
+      {"a": "Fine", "b": "L'infernale Quinlan (1958)"}
+    ],
+    "explanation": "La stagione del Noir classico coincide con l'inquietudine bellica e post-bellica americana."
+  },
+  {
+    "id": 271,
+    "type": "tf",
+    "question": "Il film 'The Birth of a Nation' è ancora oggi oggetto di polemiche per il suo contenuto razzista.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Nonostante l'importanza tecnica, il film glorifica il Ku Klux Klan e presenta una visione distorta della Guerra Civile."
+  },
+  {
+    "id": 272,
+    "type": "multiple",
+    "question": "Quali sono i tratti del 'Realismo Poetico' francese?",
+    "options": ["Destino tragico", "Ambientazione urbana nebbiosa", "Lieto fine", "Dialoghi letterari"],
+    "correct": [0, 1, 3],
+    "explanation": "Il realismo poetico è intriso di fatalismo e malinconia (es. il cinema di Marcel Carné)."
+  },
+  {
+    "id": 273,
+    "type": "fill",
+    "question": "Il regista che ha diretto 'Via col vento' è:",
+    "correct": "Victor Fleming",
+    "explanation": "Fleming fu il tecnico perfetto per realizzare la visione del produttore Selznick."
+  },
+  {
+    "id": 274,
+    "type": "match",
+    "question": "Associa il film al suo autore sovietico:",
+    "pairs": [
+      {"a": "Sciopero!", "b": "Sergej Ejzenstejn"},
+      {"a": "La madre", "b": "Vsevolod Pudovkin"},
+      {"a": "L'uomo con la macchina da presa", "b": "Dziga Vertov"}
+    ],
+    "explanation": "La scuola sovietica era unificata dall'uso del montaggio ma divisa nelle finalità artistiche."
+  },
+  {
+    "id": 275,
+    "type": "tf",
+    "question": "La 'Settimana del Cinema di Venezia' è nata nel 1932 sotto il regime fascista.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Fu il primo festival cinematografico del mondo, nato per dare prestigio internazionale all'Italia."
+  },
+  {
+    "id": 276,
+    "type": "multiple",
+    "question": "Cosa si intende per 'Cinema Moderno'?",
+    "options": ["Rottura della causalità narrativa", "Attenzione ai tempi morti", "Riferimenti metalinguistici", "Uso esclusivo di attori famosi"],
+    "correct": [0, 1, 2],
+    "explanation": "Il cinema moderno mette in dubbio la trasparenza del racconto, mostrando i segni della sua stessa costruzione."
+  },
+  {
+    "id": 277,
+    "type": "fill",
+    "question": "Il regista de 'La corazzata Potëmkin' è:",
+    "correct": "Sergej Ejzenstejn",
+    "explanation": "Ejzenštejn usò il montaggio per creare un'esperienza estetica e politica totale."
+  },
+  {
+    "id": 278,
+    "type": "match",
+    "question": "Associa l'attore comico alla sua caratteristica:",
+    "pairs": [
+      {"a": "Buster Keaton", "b": "Faccia di pietra e acrobazie"},
+      {"a": "Charlie Chaplin", "b": "Sentimentalismo e pantomima"},
+      {"a": "Harold Lloyd", "b": "L'uomo della classe media in pericolo"}
+    ],
+    "explanation": "I tre grandi dello slapstick avevano stili comici profondamente diversi."
+  },
+  {
+    "id": 279,
+    "type": "tf",
+    "question": "Il cinema di propaganda è stato utilizzato solo dai regimi totalitari (Fascismo, Nazismo, Stalinismo).",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Anche le democrazie (come gli USA durante la II Guerra Mondiale) hanno usato il cinema per convincere la popolazione della necessità del conflitto."
+  },
+  {
+    "id": 280,
+    "type": "multiple",
+    "question": "Quali elementi definiscono il 'Mise-en-scène'?",
+    "options": ["Scenografia", "Illuminazione", "Recitazione", "Costumi", "Montaggio"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Il montaggio non fa parte della messa in scena perché avviene dopo le riprese."
+  },
+  {
+    "id": 281,
+    "type": "fill",
+    "question": "Il regista di 'Roma città aperta' (1945) è:",
+    "correct": "Roberto Rossellini",
+    "explanation": "Rossellini girò il film quasi clandestinamente mentre i tedeschi lasciavano Roma, segnando la nascita morale del neorealismo."
+  },
+  {
+    "id": 282,
+    "type": "match",
+    "question": "Associa il genere ai suoi anni di gloria:",
+    "pairs": [
+      {"a": "Espressionismo", "b": "Anni '20"},
+      {"a": "Noir", "b": "Anni '40"},
+      {"a": "Western Classico", "b": "Anni '50"}
+    ],
+    "explanation": "Ogni decennio ha visto il predominio di una specifica sensibilità estetica o di genere."
+  },
+  {
+    "id": 283,
+    "type": "tf",
+    "question": "Il film 'Ladri di biciclette' finisce con il ritrovamento della bicicletta rubata.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Il finale è amaro e aperto: il protagonista non trova la bici e rischia a sua volta di diventare un ladro per disperazione."
+  },
+  {
+    "id": 284,
+    "type": "multiple",
+    "question": "Cosa caratterizza il cinema di Orson Welles?",
+    "options": ["Barocchismo visivo", "Sperimentazione sonora", "Profondità di campo", "Montaggio invisibile classico"],
+    "correct": [0, 1, 2],
+    "explanation": "Welles rifiutava la semplicità dello stile classico, preferendo immagini dense e complesse."
+  },
+  {
+    "id": 285,
+    "type": "fill",
+    "question": "Il regista che diresse 'Nosferatu' (1922) è:",
+    "correct": "F.W. Murnau",
+    "explanation": "Murnau portò l'espressionismo fuori dagli studi di posa, unendo il fantastico al paesaggio reale."
+  },
+  {
+    "id": 286,
+    "type": "match",
+    "question": "Associa il tipo di raccordo alla sua funzione:",
+    "pairs": [
+      {"a": "Raccordo di sguardo", "b": "Mostra cosa guarda il personaggio"},
+      {"a": "Raccordo di movimento", "b": "Continuità dell'azione nello spazio"},
+      {"a": "Raccordo sull'asse", "b": "Avvicinamento o allontanamento frontale"}
+    ],
+    "explanation": "I raccordi sono i 'mattoni' con cui si costruisce la trasparenza narrativa del cinema classico."
+  },
+  {
+    "id": 287,
+    "type": "tf",
+    "question": "L'invenzione della pellicola di celluloide è merito di George Eastman (fondatore della Kodak).",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. La pellicola flessibile di Eastman fu la condizione tecnica indispensabile per lo sviluppo del cinema."
+  },
+  {
+    "id": 288,
+    "type": "multiple",
+    "question": "Quali sono i contributi di Méliès al cinema?",
+    "options": ["Invenzione del montaggio narrativo", "Uso del fermo-macchina", "Sviluppo degli effetti speciali", "Primo uso del colore a mano"],
+    "correct": [1, 2, 3],
+    "explanation": "Méliès non inventò la narrazione moderna (basata sul montaggio tra luoghi), ma lo spettacolo visivo basato sul trucco."
+  },
+  {
+    "id": 289,
+    "type": "fill",
+    "question": "Il regista di 'La febbre dell'oro' (1925) è:",
+    "correct": "Charlie Chaplin",
+    "explanation": "The Gold Rush è considerato uno dei vertici della commedia muta chapliniana."
+  },
+  {
+    "id": 290,
+    "type": "match",
+    "question": "Associa il termine al sonoro:",
+    "pairs": [
+      {"a": "Overlap", "b": "Sovrapposizione di dialoghi"},
+      {"a": "Fuori campo", "b": "Suono la cui fonte non è visibile"},
+      {"a": "Puntualizzazione", "b": "Suono che sottolinea un gesto preciso"}
+    ],
+    "explanation": "L'uso del suono è diventato un'arte complessa subito dopo la sua introduzione tecnica."
+  },
+  {
+    "id": 291,
+    "type": "tf",
+    "question": "In 'The Jazz Singer', il suono è presente solo in alcune scene cantate e parlate.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Era un film 'part-talkie', non interamente parlato."
+  },
+  {
+    "id": 292,
+    "type": "multiple",
+    "question": "Quali furono le novità tecniche introdotte nel cinema degli anni '50?",
+    "options": ["CinemaScope", "3D", "Audio Stereo", "Computer Graphics"],
+    "correct": [0, 1, 2],
+    "explanation": "Hollywood puntò sulla spettacolarità fisica per competere con la comodità della televisione."
+  },
+  {
+    "id": 293,
+    "type": "fill",
+    "question": "Il regista che diresse 'Metropolis' (1927) è:",
+    "correct": "Fritz Lang",
+    "explanation": "Lang creò una visione distopica del futuro che è rimasta iconica in tutta la fantascienza successiva."
+  },
+  {
+    "id": 294,
+    "type": "match",
+    "question": "Associa il film al suo genere:",
+    "pairs": [
+      {"a": "Ombre rosse", "b": "Western"},
+      {"a": "Il mistero del falco", "b": "Noir"},
+      {"a": "Via col vento", "b": "Kolossal Storico"}
+    ],
+    "explanation": "L'epoca classica è l'epoca del trionfo dei generi."
+  },
+  {
+    "id": 295,
+    "type": "tf",
+    "question": "Il neorealismo è durato circa 20 anni (1940-1960).",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. La stagione stretta del neorealismo è durata circa dal 1945 al 1952."
+  },
+  {
+    "id": 296,
+    "type": "multiple",
+    "question": "Cosa caratterizza il cinema di Alfred Hitchcock?",
+    "options": ["Il tema della suspense", "La colpa e il peccato", "Il cameo del regista", "Il montaggio intellettuale sovietico"],
+    "correct": [0, 1, 2],
+    "explanation": "Hitchcock era un maestro del brivido psicologico, non del montaggio politico sovietico."
+  },
+  {
+    "id": 297,
+    "type": "fill",
+    "question": "Il regista che ha diretto 'L'ultima risata' (1924) è:",
+    "correct": "F.W. Murnau",
+    "explanation": "Murnau usò la camera libera per raccontare l'umiliazione psicologica del protagonista."
+  },
+  {
+    "id": 298,
+    "type": "match",
+    "question": "Associa l'attore al suo film degli anni '40:",
+    "pairs": [
+      {"a": "Humphrey Bogart", "b": "Casablanca"},
+      {"a": "Orson Welles", "b": "Quarto Potere"},
+      {"a": "Rita Hayworth", "b": "Gilda"}
+    ],
+    "explanation": "Questi attori hanno definito l'immaginario collettivo dell'epoca della guerra."
+  },
+  {
+    "id": 299,
+    "type": "tf",
+    "question": "Il 'McTeague' di Stroheim è famoso per la sua versione originale di 9 ore.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Stroheim era ossessionato dal realismo integrale e rifiutava le logiche commerciali della durata."
+  },
+  {
+    "id": 300,
+    "type": "multiple",
+    "question": "Quali furono i motivi del successo del cinema dei Lumière rispetto a quello di Edison?",
+    "options": ["Visione collettiva", "Macchina leggera e trasportabile", "Capacità di proiettare su grande schermo", "Uso del suono sincronizzato"],
+    "correct": [0, 1, 2],
+    "explanation": "I Lumière inventarono il cinema come atto sociale (proiezione), mentre Edison era rimasto alla visione individuale (spioncino)."
   }
-
+]
 ]
