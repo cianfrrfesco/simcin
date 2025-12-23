@@ -299,5 +299,1525 @@
       {"a": "1945", "b": "Uscita di Roma città aperta"}
     ],
     "explanation": "Queste date segnano i passaggi fondamentali dalla nascita del cinema al sonoro, fino alla rivoluzione moderna."
+  },
+  [
+  {
+    "id": 31,
+    "type": "tf",
+    "question": "Il film 'The Great Train Robbery' (1903) di Edwin S. Porter è celebre per essere uno dei primi esempi di montaggio narrativo che collega luoghi diversi.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Porter iniziò a superare l'inquadratura unica (tipica dei Lumière) per costruire una storia attraverso l'unione di più scene."
+  },
+  {
+    "id": 32,
+    "type": "multiple",
+    "question": "Quali furono le principali innovazioni della 'Scuola di Brighton' nel cinema delle origini?",
+    "options": [
+      "L'uso del primo piano a fini narrativi",
+      "Il montaggio tra due inquadrature per mostrare un inseguimento",
+      "L'invenzione del sonoro sincronizzato",
+      "La creazione dei primi studi cinematografici a Hollywood"
+    ],
+    "correct": [0, 1],
+    "explanation": "Registi come Smith e Williamson sperimentarono il raccordo di posizione e i primi piani prima dei registi americani."
+  },
+  {
+    "id": 33,
+    "type": "fill",
+    "question": "Il concetto teorizzato da Louis Delluc per definire la qualità specificamente artistica di un oggetto ripreso dalla macchina da presa è:",
+    "correct": "Fotogenia",
+    "explanation": "La 'fotogenia' è l'idea cardine dell'Impressionismo francese: il cinema non copia la realtà, ma la trasforma in arte attraverso l'obiettivo."
+  },
+  {
+    "id": 34,
+    "type": "match",
+    "question": "Associa il movimento d'avanguardia alla sua nazione d'origine:",
+    "pairs": [
+      {"a": "Espressionismo", "b": "Germania"},
+      {"a": "Impressionismo", "b": "Francia"},
+      {"a": "Costruttivismo/Montaggio", "b": "URSS"},
+      {"a": "Futurismo", "b": "Italia"}
+    ],
+    "explanation": "Ogni nazione europea ha sviluppato un'avanguardia specifica basata sulla propria cultura artistica tra il 1910 e il 1930."
+  },
+  {
+    "id": 35,
+    "type": "tf",
+    "question": "Nel sistema dei generi classico, lo 'Screwball Comedy' è caratterizzato da un ritmo lento e malinconico.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. La Screwball Comedy è nota per il ritmo frenetico, i dialoghi rapidi e sovrapposti e le situazioni assurde/scatenate."
+  },
+  {
+    "id": 36,
+    "type": "multiple",
+    "question": "Chi sono i principali esponenti del cinema muto comico americano (Slapstick)?",
+    "options": ["Buster Keaton", "Charlie Chaplin", "Fritz Lang", "Harold Lloyd"],
+    "correct": [0, 1, 3],
+    "explanation": "Keaton, Chaplin e Lloyd formano la 'trinità' della commedia muta. Fritz Lang è invece un maestro del cinema espressionista e noir."
+  },
+  {
+    "id": 37,
+    "type": "fill",
+    "question": "Il film di Robert Wiene del 1920, manifesto dell'Espressionismo tedesco, è 'Il gabinetto del dottor...'",
+    "correct": "Caligari",
+    "explanation": "Il gabinetto del dottor Caligari definì l'estetica espressionista con le sue scenografie dipinte e distorte."
+  },
+  {
+    "id": 38,
+    "type": "match",
+    "question": "Associa il regista al suo contributo tecnico/stilistico:",
+    "pairs": [
+      {"a": "Dziga Vertov", "b": "Cine-occhio"},
+      {"a": "Pudovkin", "b": "Montaggio epico/narrativo"},
+      {"a": "Kulesov", "b": "Effetto associazione"},
+      {"a": "Ejzenstejn", "b": "Montaggio delle attrazioni"}
+    ],
+    "explanation": "I teorici sovietici avevano visioni diverse sul montaggio: Vertov sul documentario, Ejzenstejn sullo scontro tra inquadrature."
+  },
+  {
+    "id": 39,
+    "type": "tf",
+    "question": "Il cinema Surrealista (es. 'Un Chien Andalou') mira a rappresentare la logica dei sogni e l'inconscio senza nessi causali.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Influenzati da Freud, Buñuel e Dalí volevano scioccare lo spettatore con immagini irrazionali."
+  },
+  {
+    "id": 40,
+    "type": "multiple",
+    "question": "Quali innovazioni tecnologiche furono introdotte negli anni '50 per contrastare la TV?",
+    "options": ["Cinerama", "3D", "Blockbooking", "Eastmancolor"],
+    "correct": [0, 1, 3],
+    "explanation": "Cinerama e 3D erano esperienze 'immersive' non replicabili in TV. L'Eastmancolor rese il colore più economico rispetto al Technicolor."
+  },
+  {
+    "id": 41,
+    "type": "fill",
+    "question": "Il primo lungometraggio animato a colori della Disney (1937) è:",
+    "correct": "Biancaneve e i sette nani",
+    "explanation": "Biancaneve dimostrò che il cinema d'animazione poteva reggere la durata di un lungometraggio e avere successo commerciale."
+  },
+  {
+    "id": 42,
+    "type": "match",
+    "question": "Associa l'autore giapponese alla sua caratteristica principale:",
+    "pairs": [
+      {"a": "Akira Kurosawa", "b": "Dinamismo e respiro epico"},
+      {"a": "Yasujiro Ozu", "b": "Rigore formale e vita quotidiana"},
+      {"a": "Kenji Mizoguchi", "b": "Piani sequenza e condizione femminile"}
+    ],
+    "explanation": "Questi tre autori resero il cinema giapponese un fenomeno mondiale negli anni '50."
+  },
+  {
+    "id": 43,
+    "type": "tf",
+    "question": "La 'politica degli autori' (politique des auteurs) nasce in Francia negli anni '50 sulle pagine dei Cahiers du Cinéma.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Truffaut e colleghi sostenevano che il regista fosse l'unico vero autore della visione del film, anche dentro Hollywood."
+  },
+  {
+    "id": 44,
+    "type": "multiple",
+    "question": "Quali tra questi sono temi centrali nel cinema di Alfred Hitchcock?",
+    "options": ["Il tema del falso colpevole", "La suspense vs la sorpresa", "Il voyeurismo", "La critica sociale marxista"],
+    "correct": [0, 1, 2],
+    "explanation": "Hitchcock si focalizzava sulla psicologia, il peccato e la visione. La critica sociale esplicita non era un suo tratto distintivo principale."
+  },
+  {
+    "id": 45,
+    "type": "fill",
+    "question": "Il termine che indica la vendita a 'pacchetto' dei film alle sale da parte delle Major è:",
+    "correct": "Block booking",
+    "explanation": "Il block booking costringeva gli esercenti a comprare film minori per avere i grandi titoli con le star."
+  },
+  {
+    "id": 46,
+    "type": "match",
+    "question": "Associa il termine alla sua epoca:",
+    "pairs": [
+      {"a": "Lanterna Magica", "b": "Pre-cinema"},
+      {"a": "Slapstick", "b": "Muto Americano"},
+      {"a": "Telefoni Bianchi", "b": "Cinema Fascista"},
+      {"a": "Deep Focus", "b": "Cinema Post-classico"}
+    ],
+    "explanation": "Ogni periodo ha termini tecnici o generi che lo identificano storicamente."
+  },
+  {
+    "id": 47,
+    "type": "tf",
+    "question": "Luchino Visconti, con il film 'La terra trema', utilizzò il dialetto siciliano e pescatori reali come attori.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. È uno degli esperimenti più radicali di verismo e neorealismo cinematografico."
+  },
+  {
+    "id": 48,
+    "type": "multiple",
+    "question": "Il film 'Ladri di biciclette' di Vittorio De Sica è emblematico per:",
+    "options": ["Il finale aperto", "L'uso di un bambino come testimone", "Il pedinamento della realtà", "Le scenografie sfarzose"],
+    "correct": [0, 1, 2],
+    "explanation": "Ladri di biciclette è il vertice del neorealismo teorizzato da Zavattini: quotidiano, tragico e senza soluzioni facili."
+  },
+  {
+    "id": 49,
+    "type": "fill",
+    "question": "Il genere cinematografico che fonde musica, danza e narrazione, esploso col sonoro, è il:",
+    "correct": "Musical",
+    "explanation": "Film come '42ma strada' o quelli di Fred Astaire e Ginger Rogers definirono l'evasione degli anni della Depressione."
+  },
+  {
+    "id": 50,
+    "type": "match",
+    "question": "Associa il film Noir alla sua caratteristica:",
+    "pairs": [
+      {"a": "La fiamma del peccato", "b": "L'ossessione amorosa"},
+      {"a": "Il mistero del falco", "b": "L'investigatore cinico"},
+      {"a": "Giungla d'asfalto", "b": "La rapina finita male"}
+    ],
+    "explanation": "Il Noir non è un genere ma un 'clima' che attraversa vari tipi di storie criminali negli anni '40."
+  },
+  {
+    "id": 51,
+    "type": "tf",
+    "question": "Ingmar Bergman è un regista svedese noto per i suoi temi esistenziali, religiosi e l'uso del primo piano psicologico.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Bergman (Il settimo sigillo, Il posto delle fragole) portò il cinema verso una profondità filosofica moderna negli anni '50."
+  },
+  {
+    "id": 52,
+    "type": "multiple",
+    "question": "Cosa si intende per 'Messa in scena' (Mise-en-scène)?",
+    "options": ["Scenografia", "Illuminazione", "Costumi e recitazione", "Ritmo del montaggio"],
+    "correct": [0, 1, 2],
+    "explanation": "La messa in scena comprende tutto ciò che sta 'davanti' alla camera. Il montaggio è una fase successiva."
+  },
+  {
+    "id": 53,
+    "type": "fill",
+    "question": "Il sistema di produzione di Hollywood basato sulla divisione del lavoro e il potere del produttore è lo:",
+    "correct": "Studio System",
+    "explanation": "Nello Studio System il produttore aveva l'ultima parola sul montaggio finale (final cut), non il regista."
+  },
+  {
+    "id": 54,
+    "type": "match",
+    "question": "Associa l'anno alla data di uscita di questi film spartiacque:",
+    "pairs": [
+      {"a": "1915", "b": "Nascita di una nazione"},
+      {"a": "1925", "b": "La corazzata Potëmkin"},
+      {"a": "1941", "b": "Quarto Potere"},
+      {"a": "1952", "b": "Umerto D."}
+    ],
+    "explanation": "Date fondamentali che segnano l'apice di diversi movimenti cinematografici."
+  },
+  {
+    "id": 55,
+    "type": "tf",
+    "question": "Il 'Metodo' (Actors Studio) enfatizza l'immedesimazione emotiva profonda e l'uso della memoria affettiva dell'attore.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Marlon Brando e James Dean sono i simboli di questa rivoluzione della recitazione negli anni '50."
+  },
+  {
+    "id": 56,
+    "type": "multiple",
+    "question": "Quali erano le 'Little Three' (le tre case di produzione minori) a Hollywood?",
+    "options": ["Universal", "Columbia", "United Artists", "RKO"],
+    "correct": [0, 1, 2],
+    "explanation": "Le 'Little Three' non possedevano sale cinematografiche, a differenza delle 'Big Five' (Paramount, MGM, Fox, Warner, RKO)."
+  },
+  {
+    "id": 57,
+    "type": "fill",
+    "question": "L'effetto di montaggio che collega due oggetti simili per forma o movimento è il raccordo di:",
+    "correct": "Analogia",
+    "explanation": "Il raccordo grafico o di analogia crea una continuità visiva basata sulla forma (es. l'osso che diventa astronave in 2001)."
+  },
+  {
+    "id": 58,
+    "type": "match",
+    "question": "Associa il genere alla sua icona visiva:",
+    "pairs": [
+      {"a": "Western", "b": "Monument Valley"},
+      {"a": "Horror", "b": "Chiaroscuro espressionista"},
+      {"a": "Musical", "b": "Scenografie bianche (Big White Set)"}
+    ],
+    "explanation": "L'iconografia è fondamentale per il riconoscimento immediato del genere da parte dello spettatore."
+  },
+  {
+    "id": 59,
+    "type": "tf",
+    "question": "Jean Renoir, figlio del pittore impressionista, è un maestro del realismo poetico francese degli anni '30.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Film come 'La grande illusione' e 'La regola del gioco' sono capolavori di profondità di campo e critica sociale."
+  },
+  {
+    "id": 60,
+    "type": "multiple",
+    "question": "Quali fattori portarono alla crisi di Hollywood alla fine degli anni '50?",
+    "options": ["L'ascesa della televisione", "La sentenza Paramount", "Il cambiamento delle abitudini sociali (spostamento in periferia)", "L'invenzione del Technicolor"],
+    "correct": [0, 1, 2],
+    "explanation": "Il Technicolor fu in realtà un aiuto per Hollywood. La crisi fu causata da leggi antitrust e dalla concorrenza dei nuovi media."
+  },
+  {
+    "id": 61,
+    "type": "tf",
+    "question": "Il Fenachistoscopio e lo Zootropio sono strumenti del pre-cinema basati sul principio della persistenza della visione sulla retina.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Questi dispositivi ottici ottocenteschi permettevano di visualizzare disegni in movimento prima dell'invenzione della pellicola fotografica."
+  },
+  {
+    "id": 62,
+    "type": "multiple",
+    "question": "Quali furono le caratteristiche principali del 'Divismo' nel cinema muto italiano degli anni '10?",
+    "options": [
+      "Recitazione sobria e naturalistica",
+      "Posa plastica e gestualità esasperata",
+      "Centralità della figura femminile (la Femme Fatale)",
+      "Uso massiccio di attori non professionisti"
+    ],
+    "correct": [1, 2],
+    "explanation": "Il divismo italiano (Lyda Borelli, Francesca Bertini) si basava su una recitazione pittorica e teatrale, lontana dal realismo."
+  },
+  {
+    "id": 63,
+    "type": "fill",
+    "question": "Il kolossal italiano del 1914, diretto da Giovanni Pastrone e sceneggiato (per le didascalie) da Gabriele D'Annunzio, è:",
+    "correct": "Cabiria",
+    "explanation": "Cabiria fu un successo mondiale, celebre per l'uso innovativo del carrello (allora chiamato 'movimento alla Cabiria') e scenografie monumentali."
+  },
+  {
+    "id": 64,
+    "type": "match",
+    "question": "Associa il pioniere del cinema nordico al suo stile/film:",
+    "pairs": [
+      {"a": "Victor Sjöström", "b": "Il carretto fantasma"},
+      {"a": "Mauritz Stiller", "b": "Saga di Gösta Berling"},
+      {"a": "Carl Th. Dreyer", "b": "Misticismo e primi piani"}
+    ],
+    "explanation": "Il cinema svedese e danese degli anni '10 e '20 influenzò Hollywood per il suo legame con il paesaggio e la psicologia."
+  },
+  {
+    "id": 65,
+    "type": "tf",
+    "question": "Il sistema 'Vitaphone' prevedeva la registrazione del suono direttamente sulla pellicola cinematografica.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Il Vitaphone (usato in 'The Jazz Singer') usava dischi fonografici sincronizzati. Fu il sistema 'Movietone' a introdurre la colonna sonora ottica su pellicola."
+  },
+  {
+    "id": 66,
+    "type": "multiple",
+    "question": "Il 'Kammerspielfilm' tedesco degli anni '20 si differenzia dall'Espressionismo per:",
+    "options": [
+      "Ambientazione in spazi chiusi e quotidiani",
+      "Uso di didascalie ridotte al minimo o assenti",
+      "Presenza di mostri e creature sovrannaturali",
+      "Recitazione più contenuta e psicologica"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Il Kammerspiel (teatro da camera) puntava sul realismo psicologico e l'intimità, a differenza delle distorsioni fantastiche dell'Espressionismo."
+  },
+  {
+    "id": 67,
+    "type": "fill",
+    "question": "Il concetto di 'macchina da presa scatenata' (entfesselte Kamera), ovvero il superamento della staticità del treppiede, è attribuito al film:",
+    "correct": "L'ultima risata",
+    "explanation": "Diretto da Murnau e fotografato da Karl Freund, il film usò carrelli e gru in modo rivoluzionario per seguire i sentimenti del protagonista."
+  },
+  {
+    "id": 68,
+    "type": "match",
+    "question": "Associa il regista alla sua sperimentazione con il sonoro:",
+    "pairs": [
+      {"a": "Fritz Lang", "b": "L'uso del leitmotiv in 'M'"},
+      {"a": "Alfred Hitchcock", "b": "Suono soggettivo in 'Blackmail'"},
+      {"a": "Rouben Mamoulian", "b": "Uso di due microfoni per la profondità"}
+    ],
+    "explanation": "Questi registi non subirono passivamente il sonoro, ma lo usarono come strumento espressivo fin da subito."
+  },
+  {
+    "id": 69,
+    "type": "tf",
+    "question": "Il 'Realismo Socialista' fu l'unica dottrina estetica ammessa nell'Unione Sovietica a partire dagli anni '30.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Stalin impose un'arte comprensibile alle masse e celebrativa del regime, ponendo fine alle sperimentazioni delle avanguardie degli anni '20."
+  },
+  {
+    "id": 70,
+    "type": "multiple",
+    "question": "Quali sono i tratti distintivi del 'Realismo Poetico' francese degli anni '30?",
+    "options": [
+      "Protagonisti operai o emarginati destinati alla sconfitta",
+      "Ambientazioni ricostruite in studio con estremo dettaglio",
+      "Ottimismo e lieto fine costante",
+      "Dialoghi scritti da poeti (es. Jacques Prévert)"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Il Realismo Poetico unisce la durezza sociale a un'atmosfera fatale e romantica, tipica dei film di Marcel Carné e Jean Renoir."
+  },
+  {
+    "id": 71,
+    "type": "fill",
+    "question": "Il capolavoro di Jean Renoir del 1939 che analizza la decadenza della borghesia francese alla vigilia della guerra è:",
+    "correct": "La regola del gioco",
+    "explanation": "La règle du jeu è celebre per l'uso magistrale della profondità di campo e dei movimenti corali degli attori."
+  },
+  {
+    "id": 72,
+    "type": "match",
+    "question": "Associa l'attore horror Universal al suo ruolo iconico:",
+    "pairs": [
+      {"a": "Bela Lugosi", "b": "Dracula"},
+      {"a": "Boris Karloff", "b": "Frankenstein"},
+      {"a": "Lon Chaney Jr.", "b": "L'uomo lupo"}
+    ],
+    "explanation": "La Universal negli anni '30 creò un vero e proprio pantheon di mostri che definirono il genere horror classico."
+  },
+  {
+    "id": 73,
+    "type": "tf",
+    "question": "Il Western è considerato un genere 'conservatore' perché mette in scena la vittoria della legge e della civiltà sulla natura selvaggia.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Il Western classico (es. John Ford) celebra la fondazione della nazione americana, sebbene Ford stesso ne metterà in dubbio i miti in età tarda."
+  },
+  {
+    "id": 74,
+    "type": "multiple",
+    "question": "Il melodramma di Douglas Sirk degli anni '50 è caratterizzato da:",
+    "options": [
+      "Colori saturi e antinaturalistici (Technicolor)",
+      "Critica velata all'ipocrisia della società borghese",
+      "Uso frequente di specchi e vetrate nella composizione",
+      "Assenza totale di musica orchestrale"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Sirk usava l'eccesso visivo per denunciare il vuoto morale e le restrizioni sociali dell'America di Eisenhower."
+  },
+  {
+    "id": 75,
+    "type": "fill",
+    "question": "L'espediente narrativo (un oggetto o un segreto) che serve solo come motore della trama, caro a Hitchcock, si definisce:",
+    "correct": "MacGuffin",
+    "explanation": "Il MacGuffin è ciò che i personaggi cercano con ansia (es. i documenti segreti), ma che per lo spettatore è irrilevante rispetto alla suspense."
+  },
+  {
+    "id": 76,
+    "type": "match",
+    "question": "Associa il genere del cinema fascista alla sua funzione:",
+    "pairs": [
+      {"a": "Cinema coloniale", "b": "Esaltazione dell'impero"},
+      {"a": "Telefoni Bianchi", "b": "Evasione e commedia borghese"},
+      {"a": "Documentari LUCE", "b": "Propaganda diretta"}
+    ],
+    "explanation": "Il regime fascista usò il cinema sia come arma di persuasione che come strumento di distrazione di massa."
+  },
+  {
+    "id": 77,
+    "type": "tf",
+    "question": "Luis Buñuel realizzò i suoi film più celebri in Messico dopo l'esilio dalla Spagna franchista.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. In Messico Buñuel girò film come 'I figli della violenza' e 'L'angelo sterminatore', unendo surrealismo e critica sociale."
+  },
+  {
+    "id": 78,
+    "type": "multiple",
+    "question": "Come cambia il musical hollywoodiano con Arthur Freed alla MGM negli anni '50?",
+    "options": [
+      "I numeri musicali sono integrati organicamente nella trama",
+      "Si abbandona il palcoscenico per scenografie più fluide",
+      "Nascono capolavori come 'Cantando sotto la pioggia'",
+      "I film diventano rigorosamente in bianco e nero per realismo"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "La 'Freed Unit' portò il musical alla massima maturità espressiva, rendendolo un'opera d'arte totale e coloratissima."
+  },
+  {
+    "id": 79,
+    "type": "fill",
+    "question": "Il regista giapponese noto per i suoi lunghi piani sequenza e l'uso della profondità di campo in film come 'I racconti della luna pallida d'agosto' è:",
+    "correct": "Kenji Mizoguchi",
+    "explanation": "Mizoguchi è celebre per lo stile contemplativo e per la focalizzazione sulla sofferenza delle donne nella storia giapponese."
+  },
+  {
+    "id": 80,
+    "type": "match",
+    "question": "Associa il tipo di inquadratura al suo significato classico:",
+    "pairs": [
+      {"a": "Primo piano", "b": "Analisi psicologica"},
+      {"a": "Campo lungo", "b": "Contesto ambientale"},
+      {"a": "Inquadratura dal basso", "b": "Potere o minaccia"}
+    ],
+    "explanation": "Il linguaggio classico assegna a ogni scala di piani una funzione narrativa precisa."
+  },
+  {
+    "id": 81,
+    "type": "tf",
+    "question": "Il 'Film Noir' è considerato dalla critica moderna più un 'clima' visivo e morale che un genere con regole rigide.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Poiché attraversa il melodramma, il poliziesco e il thriller, il Noir è definito più dal suo stile (ombre, pessimismo) che dal plot."
+  },
+  {
+    "id": 82,
+    "type": "multiple",
+    "question": "Quali furono i temi dominanti della fantascienza americana degli anni '50?",
+    "options": [
+      "La paura dell'invasione comunista (metafora dell'alieno)",
+      "L'ansia per il pericolo nucleare e le radiazioni",
+      "L'esplorazione filosofica di nuovi mondi",
+      "La critica al consumismo sfrenato"
+    ],
+    "correct": [0, 1],
+    "explanation": "La fantascienza degli anni '50 ('L'invasione degli ultracorpi') rifletteva perfettamente le paranoie della Guerra Fredda."
+  },
+  {
+    "id": 83,
+    "type": "fill",
+    "question": "Il periodo di persecuzione politica a Hollywood contro sospetti simpatizzanti comunisti è noto come:",
+    "correct": "Maccartismo",
+    "explanation": "Il senatore McCarthy e la HUAC crearono le 'liste nere' che distrussero la carriera di molti registi e sceneggiatori."
+  },
+  {
+    "id": 84,
+    "type": "match",
+    "question": "Associa la tecnologia al suo formato d'aspetto (Aspect Ratio):",
+    "pairs": [
+      {"a": "Academy Ratio", "b": "1.37:1"},
+      {"a": "CinemaScope", "b": "2.35:1"},
+      {"a": "Cinerama", "b": "2.59:1"}
+    ],
+    "explanation": "L'evoluzione del formato dello schermo fu la risposta di Hollywood alla televisione (che usava il formato quasi quadrato)."
+  },
+  {
+    "id": 85,
+    "type": "tf",
+    "question": "La 'Trilogia della guerra' di Rossellini è composta da: Roma città aperta, Paisà e Germania anno zero.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Questi tre film costituiscono il cuore morale del Neorealismo, analizzando la guerra e le sue macerie fisiche e spirituali."
+  },
+  {
+    "id": 86,
+    "type": "multiple",
+    "question": "L'uso della profondità di campo in 'Quarto Potere' permette di:",
+    "options": [
+      "Mantenere a fuoco sia il primo piano che lo sfondo",
+      "Evitare il montaggio analitico (tagli frequenti)",
+      "Nascondere i difetti della scenografia",
+      "Creare relazioni simboliche tra gli elementi dell'inquadratura"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Il 'deep focus' di Welles e Toland restituiva allo spettatore la libertà di guardare ovunque nell'immagine, a differenza del montaggio guidato."
+  },
+  {
+    "id": 87,
+    "type": "fill",
+    "question": "Il film che rivelò il cinema giapponese all'Occidente vincendo il Leone d'Oro a Venezia nel 1951 è:",
+    "correct": "Rashomon",
+    "explanation": "Diretto da Akira Kurosawa, il film è celebre per raccontare lo stesso evento da quattro punti di vista soggettivi diversi."
+  },
+  {
+    "id": 88,
+    "type": "match",
+    "question": "Associa l'archetipo al genere cinematografico:",
+    "pairs": [
+      {"a": "La Femme Fatale", "b": "Film Noir"},
+      {"a": "L'eroe solitario", "b": "Western"},
+      {"a": "Lo scienziato pazzo", "b": "Horror/Sci-Fi"}
+    ],
+    "explanation": "I generi classici si fondano sulla ripetizione di figure iconiche riconoscibili."
+  },
+  {
+    "id": 89,
+    "type": "tf",
+    "question": "Il montaggio 'invisibile' mira a non far percepire allo spettatore lo stacco tra un'inquadratura e l'altra.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. È la base del decoupage classico: la fluidità dell'azione deve nascondere l'artificio tecnico del montaggio."
+  },
+  {
+    "id": 90,
+    "type": "multiple",
+    "question": "Quali furono i contributi di Lotte Reiniger e dei fratelli Fleischer all'animazione?",
+    "options": [
+      "Il cinema di silhouette (Reiniger)",
+      "L'invenzione del Rotoscopio (Fleischer)",
+      "I primi cartoni animati in 3D computerizzato",
+      "La creazione di personaggi come Betty Boop e Braccio di Ferro"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Reiniger fu pioniera dell'animazione con ombre cinesi, mentre i Fleischer furono i grandi rivali creativi e tecnici di Disney."
+  },
+  {
+    "id": 91,
+    "type": "tf",
+    "question": "Étienne-Jules Marey inventò il fucile fotografico, capace di scattare 12 fotogrammi al secondo su un'unica lastra.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Marey, a differenza di Muybridge, voleva studiare il movimento continuo e fu un precursore fondamentale della cronofotografia."
+  },
+  {
+    "id": 92,
+    "type": "multiple",
+    "question": "Perché la società Pathé Frères dominò il mercato mondiale prima della Grande Guerra?",
+    "options": [
+      "Per l'integrazione verticale (produzione, distribuzione, esercizio)",
+      "Per l'invenzione del sistema di colorazione a stencil (Pathécolor)",
+      "Perché produceva esclusivamente film d'avanguardia",
+      "Per la creazione di filiali in tutto il mondo"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Pathé fu la prima vera multinazionale del cinema, controllando ogni fase del processo industriale e tecnologico."
+  },
+  {
+    "id": 93,
+    "type": "fill",
+    "question": "La prima regista donna della storia, che lavorò per la Gaumont e diresse 'La Fée aux Choux' (1896), è:",
+    "correct": "Alice Guy-Blaché",
+    "explanation": "Alice Guy-Blaché è stata una pioniera assoluta, spesso dimenticata, che ha esplorato la narrazione cinematografica contemporaneamente ai Lumière."
+  },
+  {
+    "id": 94,
+    "type": "match",
+    "question": "Associa lo studio cinematografico alla sua sede storica:",
+    "pairs": [
+      {"a": "Black Maria", "b": "New Jersey (Edison)"},
+      {"a": "Cinecittà", "b": "Roma (Fascismo)"},
+      {"a": "UFA", "b": "Berlino (Babelsberg)"},
+      {"a": "Studio Babelsberg", "b": "Germania"}
+    ],
+    "explanation": "Le infrastrutture produttive riflettono le ambizioni industriali e nazionali dei vari paesi."
+  },
+  {
+    "id": 95,
+    "type": "tf",
+    "question": "Il 'Film d'Art' francese (1908) mirava a nobilitare il cinema adattando opere teatrali e letterarie celebri.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Il Film d'Art cercava di attirare le classi colte portando sullo schermo attori della Comédie-Française."
+  },
+  {
+    "id": 96,
+    "type": "multiple",
+    "question": "Quali furono i motivi del trasferimento dell'industria cinematografica da New York a Hollywood?",
+    "options": [
+      "Il clima favorevole tutto l'anno",
+      "La varietà di paesaggi (mare, deserto, montagna)",
+      "La fuga dalla Motion Picture Patents Company (il Trust di Edison)",
+      "La vicinanza con la frontiera canadese"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Hollywood offriva condizioni di luce ottimali e la possibilità per i 'pirati' indipendenti di sfuggire ai legali di Edison."
+  },
+  {
+    "id": 97,
+    "type": "fill",
+    "question": "Il sistema di illuminazione a forti contrasti utilizzato da DeMille, ispirato alla pittura, è noto come luce...",
+    "correct": "Rembrandt",
+    "explanation": "L'illuminazione 'Rembrandt' (o 'Lasky lighting') usava forti ombre per dare profondità e drammaticità alle scene."
+  },
+  {
+    "id": 98,
+    "type": "match",
+    "question": "Associa la star del muto al suo soprannome o ruolo tipico:",
+    "pairs": [
+      {"a": "Mary Pickford", "b": "La fidanzata d'America"},
+      {"a": "Douglas Fairbanks", "b": "L'eroe d'avventura"},
+      {"a": "Rudolph Valentino", "b": "Il Latin Lover"},
+      {"a": "Theda Bara", "b": "La Vamp"}
+    ],
+    "explanation": "Lo star system creava 'tipi' umani in cui il pubblico poteva identificarsi immediatamente."
+  },
+  {
+    "id": 99,
+    "type": "tf",
+    "question": "L'accordo Parufamet fu un patto tra UFA, Paramount e MGM per salvare la casa tedesca dal fallimento, ma favorì la fuga di talenti verso Hollywood.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. L'accordo del 1925 indebolì l'autonomia del cinema tedesco a favore degli studios americani."
+  },
+  {
+    "id": 100,
+    "type": "multiple",
+    "question": "Quali sono le tipologie di montaggio teorizzate da Ejzenštejn?",
+    "options": ["Metrico", "Ritmico", "Tonalità", "Intellettuale"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Tutte le opzioni sono corrette. Ejzenštejn vedeva il montaggio come una scala di complessità crescente fino alla generazione di concetti astratti."
+  },
+  {
+    "id": 101,
+    "type": "fill",
+    "question": "Il film di King Vidor del 1925 che mostrò la guerra in modo realistico e non glorificante è:",
+    "correct": "La grande parata",
+    "explanation": "The Big Parade fu uno dei più grandi successi del muto e cambiò il modo di rappresentare il conflitto bellico al cinema."
+  },
+  {
+    "id": 102,
+    "type": "match",
+    "question": "Associa la tecnica impressionista francese al suo obiettivo:",
+    "pairs": [
+      {"a": "Soggettiva", "b": "Vedere con gli occhi del personaggio"},
+      {"a": "Fuori fuoco", "b": "Rappresentare ubriachezza o confusione"},
+      {"a": "Rallentatore", "b": "Enfatizzare la bellezza del gesto (fotogenia)"}
+    ],
+    "explanation": "Gli impressionisti francesi usavano la tecnica per rendere visibile l'interiorità."
+  },
+  {
+    "id": 103,
+    "type": "tf",
+    "question": "Il film 'Nanook l'eschimese' (1922) di Robert Flaherty è un documentario puro, privo di qualsiasi messa in scena o ricostruzione.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Flaherty fece ricostruire scene di vita quotidiana ormai scomparse per dare un'idea mitica della vita degli Inuit."
+  },
+  {
+    "id": 104,
+    "type": "multiple",
+    "question": "Quali di questi elementi caratterizzavano la 'Messa in scena' di Fritz Lang?",
+    "options": [
+      "Geometrie rigide e simmetria",
+      "Uso dell'architettura come destino",
+      "Improvvisazione totale degli attori",
+      "Integrazione tra uomo e scenografia"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Lang era un perfezionista estremo che controllava ogni centimetro dell'inquadratura come un architetto."
+  },
+  {
+    "id": 105,
+    "type": "fill",
+    "question": "Il primo cartone animato con sonoro sincronizzato della Disney, uscito nel 1928, è:",
+    "correct": "Steamboat Willie",
+    "explanation": "Con Topolino come protagonista, il film segnò l'inizio del dominio Disney nell'animazione sonora."
+  },
+  {
+    "id": 106,
+    "type": "match",
+    "question": "Associa il sistema sonoro alla sua tecnologia:",
+    "pairs": [
+      {"a": "Vitaphone", "b": "Suono su disco"},
+      {"a": "Movietone", "b": "Colonna sonora ottica"},
+      {"a": "Tri-Ergon", "b": "Brevetto tedesco del suono su pellicola"}
+    ],
+    "explanation": "La 'guerra dei brevetti' per il sonoro fu vinta infine dal sistema ottico sulla pellicola."
+  },
+  {
+    "id": 107,
+    "type": "tf",
+    "question": "Il 'Double Feature' (doppio spettacolo) fu una strategia degli esercenti negli anni '30 per attirare il pubblico durante la Depressione.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Si offrivano due film (uno di serie A e un B-movie) al prezzo di uno."
+  },
+  {
+    "id": 108,
+    "type": "multiple",
+    "question": "Quali sono i tratti distintivi del musical di Busby Berkeley alla Warner?",
+    "options": [
+      "Inquadrature dall'alto (ripresa aerea) a caleidoscopio",
+      "Numeri musicali impossibili da realizzare su un vero palcoscenico",
+      "Realismo crudo delle storie di fondo",
+      "Uso di attori che cantano dal vivo senza doppiaggio"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Berkeley rivoluzionò il musical filmico liberandolo dalle restrizioni dello spazio teatrale."
+  },
+  {
+    "id": 109,
+    "type": "fill",
+    "question": "Il regista di 'Accadde una notte' (1934), film che definì i canoni della Screwball Comedy, è:",
+    "correct": "Frank Capra",
+    "explanation": "Il film vinse i 5 Oscar principali e lanciò la carriera di Capra come 'voce' dell'ottimismo americano."
+  },
+  {
+    "id": 110,
+    "type": "match",
+    "question": "Associa il genere degli anni '30 al suo significato sociale:",
+    "pairs": [
+      {"a": "Gangster Movie", "b": "Riflesso della violenza urbana"},
+      {"a": "Horror", "b": "Paura dell'irrazionale e della scienza"},
+      {"a": "Musical", "b": "Evasione pura dalla crisi economica"}
+    ],
+    "explanation": "I generi classici rispondono sempre alle tensioni della società contemporanea."
+  },
+  {
+    "id": 111,
+    "type": "tf",
+    "question": "Il film 'L'Atalante' (1934) è l'unico lungometraggio diretto da Jean Vigo prima della sua morte prematura.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Vigo è considerato il padre del realismo poetico e un'ispirazione per la futura Nouvelle Vague."
+  },
+  {
+    "id": 112,
+    "type": "multiple",
+    "question": "Quali di questi registi iniziarono la loro carriera nel teatro prima del cinema?",
+    "options": ["Orson Welles", "Luchino Visconti", "Elia Kazan", "Vittorio De Sica"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Tutti questi autori hanno portato una forte sensibilità teatrale (nella direzione degli attori o nella messa in scena) nel cinema."
+  },
+  {
+    "id": 113,
+    "type": "fill",
+    "question": "Il nome della compagnia teatrale e radiofonica fondata da Orson Welles è:",
+    "correct": "Mercury Theatre",
+    "explanation": "Dal Mercury Theatre nacque la celebre trasmissione radiofonica 'La guerra dei mondi' e il cast di 'Quarto Potere'."
+  },
+  {
+    "id": 114,
+    "type": "match",
+    "question": "Associa il film al suo 'pre-testo' letterario:",
+    "pairs": [
+      {"a": "Ossessione", "b": "Il postino suona sempre due volte"},
+      {"a": "Ladri di biciclette", "b": "Romanzo di Luigi Bartolini"},
+      {"a": "Senso", "b": "Novella di Camillo Boito"}
+    ],
+    "explanation": "Il cinema (anche il Neorealismo) ha sempre avuto un rapporto profondo con la letteratura."
+  },
+  {
+    "id": 115,
+    "type": "tf",
+    "question": "Il film 'Umberto D.' di De Sica fu un enorme successo commerciale in Italia all'epoca della sua uscita.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Fu aspramente criticato dai politici (come Andreotti) perché 'lavava i panni sporchi in pubblico' e fu un flop al botteghino."
+  },
+  {
+    "id": 116,
+    "type": "multiple",
+    "question": "Perché il Noir è considerato uno stile 'ibrido'?",
+    "options": [
+      "Perché mescola poliziesco e melodramma",
+      "Perché unisce estetica tedesca e realismo americano",
+      "Perché usa sia attori che cartoni animati",
+      "Perché è sia cinema commerciale che cinema d'autore"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Il Noir non è un genere puro ma un'atmosfera che contamina diverse tipologie di racconto."
+  },
+  {
+    "id": 117,
+    "type": "fill",
+    "question": "La scuola di recitazione di New York, fondata da Lee Strasberg e basata sul sistema Stanislavskij, è l':",
+    "correct": "Actors Studio",
+    "explanation": "L'Actors Studio formò icone come Brando, Dean e Newman, rivoluzionando il concetto di verità psicologica dell'attore."
+  },
+  {
+    "id": 118,
+    "type": "match",
+    "question": "Associa il formato panoramico alla sua casa di produzione:",
+    "pairs": [
+      {"a": "CinemaScope", "b": "20th Century Fox"},
+      {"a": "VistaVision", "b": "Paramount"},
+      {"a": "Todd-AO", "b": "Magna Theatre Corp."}
+    ],
+    "explanation": "Ogni studio cercò di brevettare il proprio sistema per combattere la concorrenza della TV."
+  },
+  {
+    "id": 119,
+    "type": "tf",
+    "question": "In 'Sentieri selvaggi' (1956), John Ford mette in discussione l'eroismo del cowboy mostrando l'ossessione razzista del protagonista.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Ethan Edwards (John Wayne) è un personaggio ambiguo e cupo, lontano dal classico eroe senza macchia."
+  },
+  {
+    "id": 120,
+    "type": "multiple",
+    "question": "Cosa si intende per 'Profondità di campo' (Deep Focus)?",
+    "options": [
+      "Un'inquadratura in cui tutti i piani (vicino e lontano) sono a fuoco",
+      "Un effetto speciale ottenuto col computer",
+      "Una scelta stilistica che richiede obiettivi grandangolari",
+      "Un modo per evitare i tagli di montaggio"
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "La profondità di campo permette al regista di comporre l'azione su più livelli contemporaneamente."
+  },
+  {
+    "id": 121,
+    "type": "fill",
+    "question": "L'invenzione dei Lumière che permetteva di filmare e proiettare si chiama:",
+    "correct": "Cinematographe",
+    "explanation": "Il Cinématographe era leggero e portatile, a differenza del pesante Kinetograph di Edison."
+  },
+  {
+    "id": 122,
+    "type": "match",
+    "question": "Associa l'avanguardia sovietica al suo esponente:",
+    "pairs": [
+      {"a": "Cine-occhio", "b": "Dziga Vertov"},
+      {"a": "Montaggio delle attrazioni", "b": "Sergej Ejzenstejn"},
+      {"a": "Montaggio epico", "b": "Vsevolod Pudovkin"}
+    ],
+    "explanation": "Pur appartenendo allo stesso contesto, i registi sovietici avevano filosofie di montaggio diverse."
+  },
+  {
+    "id": 123,
+    "type": "tf",
+    "question": "Il 'McTeague' di Erich von Stroheim (film 'Rapacità') originariamente durava circa 9 ore.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Von Stroheim era noto per il suo realismo ossessivo e la lunghezza spropositata dei suoi montaggi originali."
+  },
+  {
+    "id": 124,
+    "type": "multiple",
+    "question": "Quali elementi definiscono il cinema di Yasujirō Ozu?",
+    "options": [
+      "Inquadrature ad altezza 'tatami'",
+      "Violazione sistematica della regola dei 180 gradi",
+      "Storie incentrate sui conflitti familiari",
+      "Uso di movimenti di macchina complessi e virtuosistici"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Ozu è noto per il suo stile statico, rigoroso e profondamente umano."
+  },
+  {
+    "id": 125,
+    "type": "fill",
+    "question": "Il primo film italiano vincitore dell'Oscar come Miglior Film Straniero (1947) è:",
+    "correct": "Sciuscià",
+    "explanation": "Diretto da Vittorio De Sica, Sciuscià fu il primo film a ricevere questo onore (allora premio speciale)."
+  },
+  {
+    "id": 126,
+    "type": "match",
+    "question": "Associa il termine al montaggio classico:",
+    "pairs": [
+      {"a": "Match on action", "b": "Raccordo sul movimento"},
+      {"a": "Eyeline match", "b": "Raccordo di sguardo"},
+      {"a": "Cross-cutting", "b": "Montaggio alternato"}
+    ],
+    "explanation": "Questi raccordi servono a rendere il montaggio 'invisibile' allo spettatore."
+  },
+  {
+    "id": 127,
+    "type": "tf",
+    "question": "Il Technicolor era un processo che richiedeva una cinepresa speciale caricata con tre pellicole diverse contemporaneamente.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Il processo Technicolor 'three-strip' era costoso e complesso, ma offriva colori incredibilmente saturi."
+  },
+  {
+    "id": 128,
+    "type": "multiple",
+    "question": "Quali generi erano considerati 'minori' o B-movies negli anni '40?",
+    "options": ["Western seriali", "Horror a basso budget", "Kolossal storici", "Sci-Fi delle origini"],
+    "correct": [0, 1, 3],
+    "explanation": "I Kolossal erano sempre produzioni di serie A per giustificare l'alto costo scenografico."
+  },
+  {
+    "id": 129,
+    "type": "fill",
+    "question": "Il film manifesto del Surrealismo (1929), nato dalla collaborazione tra Buñuel e Dalí, è:",
+    "correct": "Un Chien Andalou",
+    "explanation": "Celebre per l'inquadratura dell'occhio tagliato dal rasoio, il film rompe ogni logica narrativa tradizionale."
+  },
+  {
+    "id": 130,
+    "type": "match",
+    "question": "Associa l'innovazione tecnica al film che l'ha resa celebre:",
+    "pairs": [
+      {"a": "Colonna sonora integrata", "b": "Il cantante di jazz"},
+      {"a": "Uso drammatico del colore", "b": "Via col vento"},
+      {"a": "Effetti speciali stop-motion", "b": "King Kong (1933)"}
+    ],
+    "explanation": "Certi film restano nella storia per aver sdoganato una tecnologia a livello di massa."
+  },
+  {
+    "id": 131,
+    "type": "tf",
+    "question": "Charlie Chaplin accettò immediatamente l'avvento del sonoro e parlò nel suo primo film del 1929.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Chaplin resistette al sonoro per anni, realizzando 'Luci della città' e 'Tempi moderni' come film muti con musica."
+  },
+  {
+    "id": 132,
+    "type": "multiple",
+    "question": "Chi faceva parte della 'United Artists' fondata nel 1919?",
+    "options": ["Chaplin", "Griffith", "Pickford", "Fairbanks"],
+    "correct": [0, 1, 2, 3],
+    "explanation": "I quattro artisti si unirono per controllare la propria produzione e indipendenza dagli studios."
+  },
+  {
+    "id": 133,
+    "type": "fill",
+    "question": "Il termine 'MacGuffin' è stato reso popolare da:",
+    "correct": "Alfred Hitchcock",
+    "explanation": "Hitchcock spiegava che il MacGuffin è solo un motore per la trama che non ha importanza reale per il pubblico."
+  },
+  {
+    "id": 134,
+    "type": "match",
+    "question": "Associa il regista francese alla sua corrente:",
+    "pairs": [
+      {"a": "Jean Renoir", "b": "Realismo Poetico"},
+      {"a": "Georges Melies", "b": "Cinema delle attrazioni"},
+      {"a": "Jean Epstein", "b": "Impressionismo francese"}
+    ],
+    "explanation": "La Francia è stata culla di quasi tutti i movimenti fondamentali del cinema europeo."
+  },
+  {
+    "id": 135,
+    "type": "tf",
+    "question": "Il film 'Il trionfo della volontà' di Leni Riefenstahl è considerato un capolavoro di estetica cinematografica pur essendo propaganda nazista.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Il film è studiato per le sue innovazioni tecniche (angolazioni, montaggio, musica) messe al servizio del regime."
+  },
+  {
+    "id": 136,
+    "type": "multiple",
+    "question": "Cosa caratterizza lo stile di John Ford?",
+    "options": [
+      "Inquadratura della Monument Valley",
+      "Senso della comunità e della tradizione",
+      "Uso di attori ricorrenti (John Wayne)",
+      "Montaggio rapido e disorientante"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Ford è il poeta della stabilità visiva e della costruzione del mito americano."
+  },
+  {
+    "id": 137,
+    "type": "fill",
+    "question": "Il regista svedese de 'Il settimo sigillo' (1957) è:",
+    "correct": "Ingmar Bergman",
+    "explanation": "Bergman esplora il silenzio di Dio e la mortalità in un'opera di incredibile densità filosofica."
+  },
+  {
+    "id": 138,
+    "type": "match",
+    "question": "Associa l'anno alla nascita del rispettivo ente/festival:",
+    "pairs": [
+      {"a": "1932", "b": "Mostra del Cinema di Venezia"},
+      {"a": "1937", "b": "Cinecittà"},
+      {"a": "1935", "b": "Centro Sperimentale di Cinematografia"}
+    ],
+    "explanation": "L'Italia fascista investì massicciamente nelle istituzioni cinematografiche."
+  },
+  {
+    "id": 139,
+    "type": "tf",
+    "question": "La 'Soggettiva libera indiretta' è un concetto teorizzato da Pier Paolo Pasolini per descrivere un certo tipo di sguardo d'autore.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Pasolini analizzò come il regista possa far sentire la propria presenza pur guardando attraverso il personaggio."
+  },
+  {
+    "id": 140,
+    "type": "multiple",
+    "question": "Quali furono gli effetti della televisione sul cinema degli anni '50?",
+    "options": [
+      "Calo drastico degli spettatori nelle sale",
+      "Chiusura di molti cinema di quartiere",
+      "Aumento della produzione di film a colori",
+      "Scomparsa definitiva dei B-movies"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "I B-movies non scomparvero, ma si spostarono in parte verso la produzione televisiva."
+  },
+  {
+    "id": 141,
+    "type": "tf",
+    "question": "Secondo Tom Gunning, il 'cinema delle attrazioni' scompare completamente con l'avvento del cinema narrativo di Griffith.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Gunning sostiene che l'attrazione non scompare, ma 'va in clandestinità', riemergendo nei generi come il musical o il cinema d'azione/effetti speciali."
+  },
+  {
+    "id": 142,
+    "type": "multiple",
+    "question": "Quali furono le innovazioni tecniche introdotte da Giovanni Pastrone in 'Cabiria' (1914)?",
+    "options": [
+      "Uso del carrello per dare profondità alla scena",
+      "L'uso della luce elettrica artificiale per effetti drammatici",
+      "Il primo esempio di montaggio intellettuale",
+      "L'uso di scenografie architettoniche tridimensionali (non dipinte)"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Pastrone rivoluzionò il kolossal usando il carrello (movimento fluido) e costruendo set reali enormi invece di semplici fondali dipinti."
+  },
+  {
+    "id": 143,
+    "type": "fill",
+    "question": "L'attrice italiana icona del 'cinema in frak' e del divismo degli anni '10, protagonista di 'Assunta Spina', è:",
+    "correct": "Francesca Bertini",
+    "explanation": "Francesca Bertini fu la prima grande diva internazionale del cinema italiano, capace di imporre il proprio stile recitativo e produttivo."
+  },
+  {
+    "id": 144,
+    "type": "match",
+    "question": "Associa il dispositivo alla sua funzione nel pre-cinema:",
+    "pairs": [
+      {"a": "Prassinoscopio", "b": "Uso di specchi per riflettere disegni"},
+      {"a": "Taumatropio", "b": "Disco che ruota per fondere due immagini"},
+      {"a": "Mutoscopio", "b": "Sfogliare rapido di schede fotografiche"}
+    ],
+    "explanation": "Questi dispositivi sfruttavano diversi principi ottici per creare l'illusione del movimento prima della pellicola."
+  },
+  {
+    "id": 145,
+    "type": "tf",
+    "question": "L'effetto Kulešov dimostra che il senso di un'immagine è determinato dalla sua posizione all'interno di una sequenza di montaggio.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Kulešov provò che l'accostamento di due inquadrature produce un significato che nessuna delle due possiede singolarmente."
+  },
+  {
+    "id": 146,
+    "type": "multiple",
+    "question": "Quali sono i motivi della superiorità del cinema danese negli anni '10 (Nordisk Films)?",
+    "options": [
+      "L'enfasi su temi naturalistici e psicologici",
+      "L'uso di illuminazione soffusa e atmosfere malinconiche",
+      "La scoperta del montaggio alternato prima degli americani",
+      "La presenza di attori di fama mondiale come Asta Nielsen"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "La Danimarca dominò i mercati europei prima della guerra grazie a uno stile visivo raffinato e attori magnetici."
+  },
+  {
+    "id": 147,
+    "type": "fill",
+    "question": "Il termine che indica l'insieme degli elementi presenti davanti alla macchina da presa (scenografia, attori, luci) è:",
+    "correct": "Mise-en-scene",
+    "explanation": "Mise-en-scène (messa in scena) è un termine preso dal teatro che descrive tutto ciò che viene organizzato per essere filmato."
+  },
+  {
+    "id": 148,
+    "type": "match",
+    "question": "Associa il film tedesco alla sua corrente specifica:",
+    "pairs": [
+      {"a": "Il gabinetto del dottor Caligari", "b": "Espressionismo"},
+      {"a": "L'ultima risata", "b": "Kammerspiel"},
+      {"a": "Metropolis", "b": "Nuova Oggettività / Espressionismo tardo"}
+    ],
+    "explanation": "Il cinema tedesco degli anni '20 ha attraversato diverse fasi stilistiche, dal fantastico al realismo psicologico."
+  },
+  {
+    "id": 149,
+    "type": "tf",
+    "question": "Il film 'L'assassinat du Duc de Guise' (1908) segna la nascita del Film d'Art, un tentativo di dare prestigio culturale al cinema.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Fu prodotto per attirare le classi borghesi nei cinema usando attori famosi del teatro e musica originale."
+  },
+  {
+    "id": 150,
+    "type": "multiple",
+    "question": "Quali tra questi elementi erano proibiti o limitati dal Codice Hays (1930/34)?",
+    "options": [
+      "Il bacio orizzontale (a letto)",
+      "La critica esplicita ai rappresentanti della legge",
+      "La vittoria del crimine alla fine del film",
+      "L'uso di dialetti stranieri nei dialoghi"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Il Codice Hays imponeva una morale conservatrice: il male doveva sempre essere punito e la sessualità non doveva essere mostrata."
+  },
+  {
+    "id": 151,
+    "type": "fill",
+    "question": "Il regista che ha diretto 'Via col vento' e 'Il mago di Oz' nel mitico anno 1939 è:",
+    "correct": "Victor Fleming",
+    "explanation": "Fleming fu il regista di punta della MGM nel 1939, anno considerato l'apice produttivo della Hollywood classica."
+  },
+  {
+    "id": 152,
+    "type": "match",
+    "question": "Associa il genere 'povero' al suo mercato di riferimento:",
+    "pairs": [
+      {"a": "Race Movies", "b": "Pubblico afroamericano"},
+      {"a": "Yiddish Cinema", "b": "Comunità ebraiche europee/USA"},
+      {"a": "Serials", "b": "Pubblico infantile/giovanile del sabato pomeriggio"}
+    ],
+    "explanation": "Esisteva un cinema parallelo alle Major che serviva nicchie di pubblico specifiche ignorate da Hollywood."
+  },
+  {
+    "id": 153,
+    "type": "tf",
+    "question": "Il sistema del 'Block Booking' permetteva alle sale di scegliere singolarmente quali film proiettare.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Il Block Booking obbligava gli esercenti a comprare un intero pacchetto di film (spesso mediocri) per avere il film di punta."
+  },
+  {
+    "id": 154,
+    "type": "multiple",
+    "question": "Quali innovazioni caratterizzano il cinema sonoro di René Clair (es. 'Sotto i tetti di Parigi')?",
+    "options": [
+      "L'uso creativo del silenzio",
+      "Il rifiuto del realismo sonoro a favore di un uso giocoso/musicale",
+      "La sovrapposizione di dialoghi (overlap) tipica di Welles",
+      "L'uso del suono asincrono (vediamo una cosa, ne sentiamo un'altra)"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Clair fu tra i primi a capire che il suono non doveva solo copiare la realtà, ma poteva essere usato poeticamente."
+  },
+  {
+    "id": 155,
+    "type": "fill",
+    "question": "Il primo film a vincere l'Oscar per il Miglior Film (1927/28) è stato:",
+    "correct": "Ali",
+    "explanation": "Ali (Wings) è un film muto sull'aviazione, premiato per le sue spettacolari riprese aeree."
+  },
+  {
+    "id": 156,
+    "type": "match",
+    "question": "Associa il teorico/regista sovietico alla sua idea di montaggio:",
+    "pairs": [
+      {"a": "Ejzenstejn", "b": "Conflitto tra inquadrature (Urto)"},
+      {"a": "Pudovkin", "b": "Somma di inquadrature (Collegamento)"},
+      {"a": "Vertov", "b": "Organizzazione del mondo visibile (Verità)"}
+    ],
+    "explanation": "Le divergenze teoriche tra i registi russi furono fondamentali per lo sviluppo del linguaggio del montaggio."
+  },
+  {
+    "id": 157,
+    "type": "tf",
+    "question": "Nel cinema classico americano, lo spettatore deve dimenticare di trovarsi di fronte a un'opera di finzione (identificazione primaria).",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Lo stile classico è 'invisibile' per permettere l'immersione totale nel racconto."
+  },
+  {
+    "id": 158,
+    "type": "multiple",
+    "question": "Cosa si intende per 'Screwball Comedy'?",
+    "options": [
+      "Commedia sofisticata con dialoghi rapidissimi",
+      "Battaglie tra i sessi (lotta uomo-donna)",
+      "Commedie basate su mostri e fantascienza",
+      "Rovesciamento delle classi sociali"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "La Screwball Comedy univa satira sociale e slapstick raffinato (es. 'Accadde una notte')."
+  },
+  {
+    "id": 159,
+    "type": "fill",
+    "question": "Il regista che diresse il kolossal 'Ben-Hur' (1959) e il western 'I migliori anni della nostra vita' è:",
+    "correct": "William Wyler",
+    "explanation": "Wyler è stato un maestro del cinema classico, capace di eccellere in ogni genere con estremo rigore formale."
+  },
+  {
+    "id": 160,
+    "type": "match",
+    "question": "Associa il movimento al suo anno di massima espansione:",
+    "pairs": [
+      {"a": "Espressionismo Tedesco", "b": "1920-1927"},
+      {"a": "Impressionismo Francese", "b": "1918-1929"},
+      {"a": "Neorealismo Italiano", "b": "1945-1952"}
+    ],
+    "explanation": "I movimenti cinematografici hanno archi temporali legati a fattori politici ed economici nazionali."
+  },
+  {
+    "id": 161,
+    "type": "tf",
+    "question": "Il film 'M il mostro di Düsseldorf' di Fritz Lang usa il leitmotiv sonoro (il fischio) per annunciare la presenza del killer fuori campo.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Lang usò il suono per espandere lo spazio dell'inquadratura, rendendo udibile ciò che non era visibile."
+  },
+  {
+    "id": 162,
+    "type": "multiple",
+    "question": "Quali furono le critiche rivolte al Neorealismo dal governo italiano degli anni '50?",
+    "options": [
+      "Il cinema neorealista dava un'immagine negativa dell'Italia all'estero",
+      "I film erano troppo costosi per lo Stato",
+      "I registi si rifiutavano di usare attori professionisti",
+      "I film erano considerati troppo vicini alle ideologie di sinistra (PCI)"
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "Giulio Andreotti scrisse una celebre lettera a De Sica accusandolo di esporre 'i panni sporchi' dell'Italia."
+  },
+  {
+    "id": 163,
+    "type": "fill",
+    "question": "La tecnica che consiste in un'unica, lunghissima inquadratura che copre un'intera sequenza senza stacchi è il:",
+    "correct": "Piano sequenza",
+    "explanation": "Il piano-sequenza (long take) è una sfida tecnica che preserva la continuità temporale e spaziale della realtà."
+  },
+  {
+    "id": 164,
+    "type": "match",
+    "question": "Associa il noir al suo elemento visivo caratteristico:",
+    "pairs": [
+      {"a": "Deep Shadows", "b": "Chiaroscuro netto"},
+      {"a": "Rainy Streets", "b": "Asfalto bagnato riflessivo"},
+      {"a": "Dutch Angles", "b": "Inquadrature inclinate/oblique"}
+    ],
+    "explanation": "L'estetica del Noir è fortemente influenzata dall'Espressionismo tedesco importato dai registi fuggiti dal nazismo."
+  },
+  {
+    "id": 165,
+    "type": "tf",
+    "question": "In 'Sciopero!' di Ejzenstejn, il regista alterna immagini della repressione operaia a immagini di un mattatoio (montaggio per associazione).",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. È un esempio perfetto di montaggio intellettuale: il significato ('operaio ucciso come bue') nasce dal confronto metaforico."
+  },
+  {
+    "id": 166,
+    "type": "multiple",
+    "question": "Perché il film 'Il viaggio in Italia' di Rossellini (1953) è considerato l'inizio del cinema moderno?",
+    "options": [
+      "Per lo svuotamento dell'azione drammatica",
+      "Per l'attenzione ai tempi morti e all'interiorità",
+      "Per l'uso di effetti speciali digitali",
+      "Per il rifiuto delle strutture narrative classiche di causa-effetto"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Rossellini si allontanò dal neorealismo sociale per esplorare la 'modernità' dell'animo umano e della crisi di coppia."
+  },
+  {
+    "id": 167,
+    "type": "fill",
+    "question": "L'innovazione del colore 'Technicolor' consisteva inizialmente nell'uso di quante pellicole separate?",
+    "correct": "Tre",
+    "explanation": "Il Technicolor 'three-strip' usava tre pellicole (rosso, verde, blu) che venivano sovrapposte in stampa per ottenere colori vividi."
+  },
+  {
+    "id": 168,
+    "type": "match",
+    "question": "Associa il pioniere americano al suo genere di riferimento:",
+    "pairs": [
+      {"a": "Mack Sennett", "b": "Slapstick (Keystone Cops)"},
+      {"a": "Thomas Ince", "b": "Western e standardizzazione produttiva"},
+      {"a": "Cecil B. DeMille", "b": "Kolossal biblici e storici"}
+    ],
+    "explanation": "Ognuno di questi pionieri ha contribuito a fondare i generi o le modalità industriali di Hollywood."
+  },
+  {
+    "id": 169,
+    "type": "tf",
+    "question": "Il cinema di Hitchcock è basato sulla 'suspense' (lo spettatore sa più del personaggio) piuttosto che sulla 'sorpresa'.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. La suspense si basa sull'attesa di un evento noto allo spettatore (es. la bomba sotto il tavolo), aumentando il coinvolgimento emotivo."
+  },
+  {
+    "id": 170,
+    "type": "multiple",
+    "question": "Cosa caratterizza il 'Realismo' cinematografico secondo André Bazin?",
+    "options": [
+      "Il rispetto della durata reale dell'azione",
+      "L'uso della profondità di campo",
+      "Il montaggio frenetico per dare energia",
+      "La libertà dello spettatore di scegliere dove guardare"
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Bazin preferiva il piano-sequenza e la profondità di campo perché, a differenza del montaggio, non 'manipolano' la realtà."
+  },
+  {
+    "id": 171,
+    "type": "fill",
+    "question": "Il primo western di John Ford a usare la Monument Valley come location (1939) è:",
+    "correct": "Ombre rosse",
+    "explanation": "Stagecoach (Ombre rosse) non solo lanciò John Wayne, ma trasformò il paesaggio del West in uno spazio mitico e psicologico."
+  },
+  {
+    "id": 172,
+    "type": "match",
+    "question": "Associa la tecnica del sonoro alla sua definizione:",
+    "pairs": [
+      {"a": "Diegetico", "b": "Suono che i personaggi sentono"},
+      {"a": "Extradiegetico", "b": "Musica di commento esterna"},
+      {"a": "Suono On-Screen", "b": "La fonte sonora è visibile"},
+      {"a": "Suono Off-Screen", "b": "La fonte è fuori inquadratura"}
+    ],
+    "explanation": "La distinzione tra mondo del racconto (diegesi) e apparato tecnico è fondamentale per l'analisi del suono."
+  },
+  {
+    "id": 173,
+    "type": "tf",
+    "question": "Lo Studio System di Hollywood era basato sul potere assoluto del Regista (Director) rispetto al Produttore.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. Nel sistema classico il Produttore (Producer) aveva il controllo finale; il regista era spesso un tecnico sotto contratto."
+  },
+  {
+    "id": 174,
+    "type": "multiple",
+    "question": "Quali furono le soluzioni adottate da Hollywood per superare la Grande Depressione degli anni '30?",
+    "options": [
+      "Istituzione del doppio spettacolo (Double Feature)",
+      "Vincita di premi e lotterie al cinema",
+      "Abbassamento del prezzo dei biglietti",
+      "Esclusione di attori stranieri per risparmiare"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Per convincere la gente a spendere in tempi di crisi, le sale divennero veri centri di intrattenimento con bonus e sconti."
+  },
+  {
+    "id": 175,
+    "type": "fill",
+    "question": "Il regista svedese di 'Il carretto fantasma' (1921), ammirato da Bergman e Kubrick, è:",
+    "correct": "Victor Sjostrom",
+    "explanation": "Sjöström usò sovrimpressioni magistrali per rappresentare il sovrannaturale e la morte."
+  },
+  {
+    "id": 176,
+    "type": "match",
+    "question": "Associa il genere alle Major degli anni '40:",
+    "pairs": [
+      {"a": "Melodramma", "b": "Douglas Sirk (Universal)"},
+      {"a": "Western", "b": "John Ford (Fox/RKO)"},
+      {"a": "Cartoni Animati", "b": "Walt Disney (RKO/Indipendente)"}
+    ],
+    "explanation": "Ogni Studio o casa di produzione tendeva a specializzarsi in un filone per ottimizzare i costi."
+  },
+  {
+    "id": 177,
+    "type": "tf",
+    "question": "Le avanguardie storiche (Futurismo, Dadaismo, Surrealismo) rifiutavano il cinema narrativo basato sul romanzo ottocentesco.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Per le avanguardie il cinema doveva essere pura forma, ritmo o espressione dell'inconscio, non racconto di storie."
+  },
+  {
+    "id": 178,
+    "type": "multiple",
+    "question": "Cosa caratterizza il cinema di animazione dei Fratelli Fleischer (Betty Boop, Popeye)?",
+    "options": [
+      "Uno stile surreale e spesso inquietante",
+      "Uso di sfondi tridimensionali rotanti",
+      "Invenzione del Rotoscopio",
+      "Assoluto moralismo e rispetto delle regole Disney"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "I Fleischer erano tecnicamente innovativi e molto più anarchici e trasgressivi rispetto alla Disney."
+  },
+  {
+    "id": 179,
+    "type": "fill",
+    "question": "Il film di Elia Kazan del 1954 che lanciò il divismo ribelle di Marlon Brando è:",
+    "correct": "Fronte del porto",
+    "explanation": "On the Waterfront è il manifesto del 'Metodo' Actors Studio: realismo crudo e recitazione viscerale."
+  },
+  {
+    "id": 180,
+    "type": "match",
+    "question": "Associa il film al suo uso del colore:",
+    "pairs": [
+      {"a": "Sinfonia in rosso", "b": "Rouben Mamoulian (Becky Sharp)"},
+      {"a": "Passaggio dal B/N al Colore", "b": "Il Mago di Oz"},
+      {"a": "Colori pastello saturi", "b": "Musical MGM (Un americano a Parigi)"}
+    ],
+    "explanation": "L'uso del colore è stato inizialmente sperimentale e legato a specifiche esigenze narrative o di genere."
+  },
+  {
+    "id": 181,
+    "type": "tf",
+    "question": "Il cinema di Yasujiro Ozu è caratterizzato dall'assenza quasi totale di movimenti di macchina.",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Ozu preferiva inquadrature fisse e geometriche per concentrarsi sulla staticità della vita quotidiana."
+  },
+  {
+    "id": 182,
+    "type": "multiple",
+    "question": "Quali furono le innovazioni portate dalla Nouvelle Vague (che inizia a fine anni '50)?",
+    "options": [
+      "Riprese con cineprese leggere a mano",
+      "Rottura del montaggio continuo (Jump cut)",
+      "Storie basate sulla casualità e l'improvvisazione",
+      "Ritorno alle grandi scenografie teatrali"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "I giovani turchi dei Cahiers du Cinéma distrussero le regole del 'cinema di papà' favorendo la libertà espressiva."
+  },
+  {
+    "id": 183,
+    "type": "fill",
+    "question": "Il regista de 'La parola ai giurati' (1957), capolavoro del cinema giudiziario americano, è:",
+    "correct": "Sidney Lumet",
+    "explanation": "Lumet, proveniente dalla TV, dimostrò come un'unica stanza potesse diventare uno spazio cinematografico tesissimo."
+  },
+  {
+    "id": 184,
+    "type": "match",
+    "question": "Associa il festival alla sua data di fondazione:",
+    "pairs": [
+      {"a": "Mostra di Venezia", "b": "1932"},
+      {"a": "Festival di Cannes", "b": "1939/1946"},
+      {"a": "Festival di Berlino", "b": "1951"}
+    ],
+    "explanation": "I festival cinematografici sono nati come vetrine nazionali e luoghi di legittimazione artistica del cinema."
+  },
+  {
+    "id": 185,
+    "type": "tf",
+    "question": "Nel dopoguerra, l'Italia esportava più film negli Stati Uniti di quanti ne importasse.",
+    "options": ["Vero", "Falso"],
+    "correct": 1,
+    "explanation": "Falso. L'Italia (e tutta l'Europa) fu invasa dai film americani accumulati durante la guerra, mettendo in crisi le industrie locali."
+  },
+  {
+    "id": 186,
+    "type": "multiple",
+    "question": "Quali temi affronta il cinema di Mizoguchi (es. 'Vita di O-Haru')?",
+    "options": [
+      "La sofferenza della donna nella società patriarcale",
+      "Il contrasto tra onore e amore",
+      "Il legame con l'estetica dei rotoli dipinti giapponesi",
+      "La velocità tecnologica del Giappone moderno"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Mizoguchi è un poeta della condizione femminile e del passato storico giapponese."
+  },
+  {
+    "id": 187,
+    "type": "fill",
+    "question": "Il produttore della RKO che negli anni '40 lanciò un ciclo di horror 'suggeriti' e psicologici (come 'Il bacio della pantera') è:",
+    "correct": "Val Lewton",
+    "explanation": "Val Lewton produsse horror a basso costo che facevano leva sull'immaginazione e sull'ombra anziché mostrare mostri espliciti."
+  },
+  {
+    "id": 188,
+    "type": "match",
+    "question": "Associa l'elemento tecnico alla sua era:",
+    "pairs": [
+      {"a": "Pellicola Ortopancromatica", "b": "Muto classico (Migliore resa dei grigi)"},
+      {"a": "Technicolor Monopack", "b": "Anni '50 (Colore più agile)"},
+      {"a": "Colonna sonora magnetica", "b": "CinemaScope (Audio multi-canale)"}
+    ],
+    "explanation": "L'evoluzione dei supporti fisici ha sempre condizionato le possibilità estetiche dei registi."
+  },
+  {
+    "id": 189,
+    "type": "tf",
+    "question": "Il film 'L'Infernale Quinlan' (Touch of Evil) di Orson Welles è considerato l'ultimo grande noir della stagione classica (1958).",
+    "options": ["Vero", "Falso"],
+    "correct": 0,
+    "explanation": "Vero. Con il suo stile barocco e i piani-sequenza virtuosi, chiude idealmente l'epoca del noir classico americano."
+  },
+  {
+    "id": 190,
+    "type": "multiple",
+    "question": "Cosa si intende per 'Cinema Antropomorfico' secondo Luchino Visconti?",
+    "options": [
+      "Un cinema che mette l'uomo e le sue passioni al centro di tutto",
+      "Un cinema che usa animali come protagonisti",
+      "Un cinema che rifiuta il formalismo per cercare la verità dei corpi",
+      "Un cinema di pura sperimentazione astratta"
+    ],
+    "correct": [0, 2],
+    "explanation": "Per Visconti (nel saggio su 'Cinema' del 1943), il regista deve interessarsi alla carne e al sangue dell'uomo, non alla bella inquadratura."
   }
+
 ]
