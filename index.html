@@ -11,17 +11,27 @@
         h1 { color: var(--primary); text-align: center; text-transform: uppercase; letter-spacing: 1px; }
         .progress-bar { font-size: 0.9em; color: #666; margin-bottom: 10px; font-weight: bold; }
         .question-text { font-size: 1.2em; font-weight: 600; margin-bottom: 20px; color: #000; }
+        
+        /* Opzioni Scelta Multipla */
         .option { display: block; margin: 12px 0; padding: 15px; border: 2px solid #eee; border-radius: 8px; cursor: pointer; transition: all 0.2s; }
         .option:hover { background: #fff5f5; border-color: var(--primary); }
         .option.selected { background: #800000; color: white; border-color: #800000; }
-        input[type="text"] { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 1em; margin-top: 10px; box-sizing: border-box; }
-        button { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-size: 1em; font-weight: bold; width: 100%; transition: opacity 0.2s; }
+        
+        /* Input e Select */
+        input[type="text"], select { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 1em; margin-top: 10px; box-sizing: border-box; background: white; }
+        
+        /* Layout Associazioni (Match) */
+        .match-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 15px; background: #f9f9f9; padding: 10px; border-radius: 8px; }
+        .match-label { flex: 1; font-weight: bold; }
+        .match-select { flex: 1; margin-top: 0 !important; }
+
+        button { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; cursor: pointer; font-size: 1em; font-weight: bold; width: 100%; transition: opacity 0.2s; margin-top: 10px; }
         button:hover { opacity: 0.9; }
+        
         #recap { display: none; }
         .correct-box { border-left: 5px solid #28a745; background: #f8fff9; padding: 15px; margin: 10px 0; }
         .wrong-box { border-left: 5px solid #dc3545; background: #fff8f8; padding: 15px; margin: 10px 0; }
-        .explanation { font-style: italic; background: #fff3cd; padding: 15px; border-radius: 6px; margin-top: 10px; font-size: 0.95em; }
-        .match-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center; margin-bottom: 10px; }
+        .explanation { font-style: italic; background: #fff3cd; padding: 15px; border-radius: 6px; margin-top: 10px; font-size: 0.95em; border: 1px solid #ffeeba; }
     </style>
 </head>
 <body>
@@ -29,25 +39,25 @@
     <div id="setup-screen">
         <div class="card">
             <h1>Simulazione Esame <br>Storia del Cinema</h1>
-            <p style="text-align: center;">Corso del Pro</p>
+            <p style="text-align: center;">Corso del Prof. Massimo Locatelli (Unicatt)</p>
             <hr>
-            <p>Il test include 30 domande basate sul manuale <i>"Storia del cinema: un'introduzione"</i>.</p>
-            <p><strong>Tipologie:</strong> Scelta multipla, Vero/Falso, Fill-the-blank e Associazioni.</p>
-            <button onclick="startQuiz()">Inizia Esame</button>
+            <p>Il test include 30 domande estratte da un pool di 300.</p>
+            <p><strong>Istruzioni:</strong> Per le domande di associazione, seleziona l'opzione corretta dal menu a tendina.</p>
+            <button onclick="startQuiz()">Inizia Simulazione</button>
         </div>
     </div>
 
     <div id="quiz-container" style="display:none;">
         <div id="progress" class="progress-bar"></div>
         <div id="question-card" class="card"></div>
-        <button id="next-btn" onclick="nextQuestion()">Conferma e Prosegui</button>
+        <button id="next-btn" onclick="handleNext()">Conferma e Prosegui</button>
     </div>
 
     <div id="recap">
         <h1>Risultato Finale</h1>
         <div id="score-display"></div>
         <div id="recap-list"></div>
-        <button onclick="location.reload()" style="margin-top: 20px;">Riprova Test</button>
+        <button onclick="location.reload()" style="margin-top: 20px;">Ricomincia Test</button>
     </div>
 
     <script>
@@ -58,23 +68,18 @@
 
         async function startQuiz() {
             try {
-                // Fetch con timestamp per evitare cache di GitHub
                 const response = await fetch('questions.json?t=' + Date.now());
-                if (!response.ok) throw new Error("File questions.json non trovato sul server.");
-                
+                if (!response.ok) throw new Error("Impossibile caricare il file questions.json");
                 allQuestions = await response.json();
                 
-                // Prendiamo 30 domande casuali
+                // Mescola e seleziona 30
                 selectedQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 30);
                 
-                if (selectedQuestions.length === 0) throw new Error("Il file JSON è vuoto.");
-
                 document.getElementById('setup-screen').style.display = 'none';
                 document.getElementById('quiz-container').style.display = 'block';
                 showQuestion();
             } catch (e) {
-                alert("ERRORE: " + e.message + "\nAssicurati che questions.json sia nella stessa cartella dell'index.");
-                console.error(e);
+                alert("Errore critico: " + e.message);
             }
         }
 
@@ -90,13 +95,20 @@
                     html += `<div class="option" data-idx="${i}" onclick="toggleOption(this, ${q.type === 'multiple'})">${opt}</div>`;
                 });
             } else if (q.type === 'fill') {
-                html += `<input type="text" id="fill-input" placeholder="Scrivi la risposta qui..." autocomplete="off">`;
+                html += `<input type="text" id="fill-input" placeholder="Risposta..." autocomplete="off">`;
             } else if (q.type === 'match') {
+                // Creiamo la lista di opzioni (tutte le parti B della domanda)
+                const optionsB = q.pairs.map(p => p.b).sort(() => 0.5 - Math.random());
+                
                 q.pairs.forEach((p, i) => {
-                    html += `<div class="match-row">
-                                <span>${p.a}</span>
-                                <input type="text" class="match-input" data-pair="${i}" placeholder="Associa...">
-                             </div>`;
+                    html += `
+                    <div class="match-row">
+                        <div class="match-label">${p.a}</div>
+                        <select class="match-select" data-pair-idx="${i}">
+                            <option value="">-- Seleziona --</option>
+                            ${optionsB.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
+                        </select>
+                    </div>`;
                 });
             }
 
@@ -110,17 +122,16 @@
             el.classList.toggle('selected');
         }
 
-        function nextQuestion() {
+        function handleNext() {
             const q = selectedQuestions[currentIdx];
             let answer = null;
 
             if (q.type === 'tf' || q.type === 'multiple') {
-                const sel = Array.from(document.querySelectorAll('.option.selected'));
-                answer = sel.map(s => parseInt(s.getAttribute('data-idx')));
+                answer = Array.from(document.querySelectorAll('.option.selected')).map(s => parseInt(s.getAttribute('data-idx')));
             } else if (q.type === 'fill') {
                 answer = document.getElementById('fill-input').value.trim();
             } else if (q.type === 'match') {
-                answer = Array.from(document.querySelectorAll('.match-input')).map(i => i.value.trim());
+                answer = Array.from(document.querySelectorAll('.match-select')).map(s => s.value);
             }
 
             userAnswers.push(answer);
@@ -134,18 +145,26 @@
         }
 
         function calculateScore(q, uAns) {
-            if (!uAns || uAns.length === 0) return 0;
+            if (!uAns || (Array.isArray(uAns) && uAns.length === 0)) return 0;
+            
             if (q.type === 'tf') return uAns[0] === q.correct ? 1 : 0;
             if (q.type === 'fill') return uAns.toLowerCase() === q.correct.toLowerCase() ? 1 : 0;
+            
             if (q.type === 'multiple') {
                 let p = 0;
-                uAns.forEach(val => { if(q.correct.includes(val)) p += (1/q.correct.length); else p -= 0.5; });
+                uAns.forEach(val => { 
+                    if(q.correct.includes(val)) p += (1/q.correct.length); 
+                    else p -= 0.5; 
+                });
                 return Math.max(0, p);
             }
+            
             if (q.type === 'match') {
-                let p = 0;
-                q.pairs.forEach((pair, i) => { if(uAns[i]?.toLowerCase() === pair.b.toLowerCase()) p += (1/q.pairs.length); });
-                return p;
+                let correctMatches = 0;
+                q.pairs.forEach((pair, i) => {
+                    if (uAns[i] === pair.b) correctMatches++;
+                });
+                return correctMatches / q.pairs.length;
             }
             return 0;
         }
@@ -160,16 +179,24 @@
             selectedQuestions.forEach((q, i) => {
                 const s = calculateScore(q, userAnswers[i]);
                 totalScore += s;
-                const isCorrect = s >= 0.8;
+                const isCorrect = s >= 0.99; // 1 pieno o quasi
 
                 html += `<div class="card ${isCorrect ? 'correct-box' : 'wrong-box'}">
                     <p><strong>${i+1}. ${q.question}</strong></p>
-                    <p>Punti ottenuti: ${s.toFixed(2)}</p>
-                    <div class="explanation"><strong>Correzione:</strong> ${q.explanation}</div>
+                    <p>Il tuo punteggio per questa domanda: <strong>${s.toFixed(2)} / 1.00</strong></p>
+                    <div class="explanation">
+                        <strong>Correzione/Spiegazione:</strong><br>
+                        ${q.explanation}
+                    </div>
                 </div>`;
             });
 
-            document.getElementById('score-display').innerHTML = `<div class="card" style="text-align:center"><h2>Voto: ${totalScore.toFixed(2)} / 30</h2></div>`;
+            document.getElementById('score-display').innerHTML = `
+                <div class="card" style="text-align:center; border-top: 10px solid var(--primary);">
+                    <h2 style="margin:0">VOTO FINALE</h2>
+                    <div style="font-size: 3em; font-weight: bold; color: var(--primary);">${totalScore.toFixed(0)} / 30</div>
+                    <p>${totalScore >= 18 ? 'Esame Superato!' : 'Esame non superato.'}</p>
+                </div>`;
             document.getElementById('recap-list').innerHTML = html;
         }
     </script>
