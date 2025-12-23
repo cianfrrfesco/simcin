@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Simulazione Storia del Cinema</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Simulazione Esame – Storia del Cinema</h1>
+<p>Domande caricate: <span id="count"></span></p>
+<script>
+fetch('questions.json')
+.then(r=>r.json())
+.then(d=>{document.getElementById('count').innerText=d.length;})
+</script>
+</body>
+</html>
