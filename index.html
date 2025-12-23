@@ -4,14 +4,87 @@
 <meta charset="UTF-8">
 <title>Simulazione Storia del Cinema</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; padding: 16px; }
+button { font-size: 18px; padding: 12px; margin: 12px 0; width: 100%; }
+.card { border: 1px solid #ccc; padding: 12px; border-radius: 10px; margin-bottom: 12px; }
+.correct { color: green; }
+.wrong { color: red; }
+</style>
 </head>
 <body>
-<h1>Simulazione Esame – Storia del Cinema</h1>
-<p>Domande caricate: <span id="count"></span></p>
+
+<h2>Simulazione Esame – Storia del Cinema</h2>
+<button onclick="start()">Inizia simulazione</button>
+<div id="quiz"></div>
+<div id="recap" style="display:none"></div>
+
 <script>
+let allQuestions = [];
+
 fetch('questions.json')
-.then(r=>r.json())
-.then(d=>{document.getElementById('count').innerText=d.length;})
+  .then(r => r.json())
+  .then(d => allQuestions = d);
+
+function start() {
+  const selected = allQuestions.sort(() => 0.5 - Math.random()).slice(0,30);
+  const quizDiv = document.getElementById('quiz');
+  quizDiv.innerHTML = '';
+  document.getElementById('recap').style.display = 'none';
+
+  selected.forEach((q,i)=>{
+    const div = document.createElement('div');
+    div.className = 'card';
+    let html = `<strong>Domanda ${i+1}</strong>: ${q.testo}<br><em>${q.argomento}</em><br>`;
+    
+    if(q.tipo=="scelta_multipla"){
+      q.opzioni.forEach((op,j)=>{
+        html += `<input type="checkbox" name="q${i}" value="${j}"> ${op}<br>`;
+      });
+    } else if(q.tipo=="vero_falso"){
+      html += `<input type="radio" name="q${i}" value="0"> Vero<br>`;
+      html += `<input type="radio" name="q${i}" value="1"> Falso<br>`;
+    } else {
+      html += `<input type="text" name="q${i}"><br>`;
+    }
+
+    div.innerHTML = html;
+    quizDiv.appendChild(div);
+  });
+
+  const btn = document.createElement('button');
+  btn.innerText = 'Termina e Vedi Recap';
+  btn.onclick = () => showRecap(selected);
+  quizDiv.appendChild(btn);
+}
+
+function showRecap(selected) {
+  const recapDiv = document.getElementById('recap');
+  recapDiv.style.display = 'block';
+  const quizDiv = document.getElementById('quiz');
+  quizDiv.innerHTML = '';
+
+  let html = '';
+  selected.forEach((q,i)=>{
+    html += `<div class='card'><strong>Domanda ${i+1}</strong>: ${q.testo}<br>`;
+    let userAnswer = [];
+    const inputs = document.getElementsByName('q'+i);
+    if(q.tipo=="scelta_multipla" || q.tipo=="vero_falso"){
+      inputs.forEach(inp=>{if(inp.checked) userAnswer.push(parseInt(inp.value));});
+      userAnswer = userAnswer.join(", ");
+    } else {
+      userAnswer = inputs[0].value;
+    }
+
+    let correctAnswer = q.corrette.join(", ");
+    let classe = userAnswer==correctAnswer ? 'correct' : 'wrong';
+    html += `Risposta data: <span class='${classe}'>${userAnswer}</span><br>`;
+    html += `Risposta corretta: <span class='correct'>${correctAnswer}</span><br>`;
+    html += `Spiegazione: ${q.spiegazione.join("; ")}<br></div>`;
+  });
+  recapDiv.innerHTML = html;
+}
 </script>
+
 </body>
 </html>
